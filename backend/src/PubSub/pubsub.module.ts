@@ -21,7 +21,6 @@ const pubsub = new MQTTPubSub({
   imports: [],
   controllers: [],
   providers: [
-    AuthorsResolver,
     {
       provide: 'PUB_SUB',
       useValue: new PubSub(),
