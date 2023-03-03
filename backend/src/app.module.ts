@@ -13,7 +13,7 @@ import { ConfigModule } from '@nestjs/config';
         'graphql-ws': true,
       },
     }),
-    ConfigModule.forRoot(),
+    ConfigModule.forRoot({ isGlobal: true }),
     PubSubModule,
   ],
   controllers: [],
