@@ -1,11 +1,14 @@
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
-import { PubSubModule } from './PubSub/pubsub.module';
+import { PubSubModule } from './modules/PubSub/pubsub.module';
 import { ConfigModule } from '@nestjs/config';
+import { ActuatorModules } from './modules/Actuator/actuator.module';
+import { SensorModules } from './modules/Sensor/sensor.module';
 
 @Module({
   imports: [
+    ConfigModule.forRoot({ isGlobal: true }),
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: true,
@@ -13,8 +16,9 @@ import { ConfigModule } from '@nestjs/config';
         'graphql-ws': true,
       },
     }),
-    ConfigModule.forRoot({ isGlobal: true }),
     PubSubModule,
+    ActuatorModules,
+    SensorModules,
   ],
   controllers: [],
   providers: [],
