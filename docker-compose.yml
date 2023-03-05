@@ -1,0 +1,54 @@
+version: '3.3'
+
+networks:
+  intnet:
+    name: app
+
+services:
+  mosquitto:
+    container_name: broker
+    image: eclipse-mosquitto
+    restart: always
+    volumes:
+      - ./mosquitto/config/:/mosquitto/config
+      - ./mosquitto/data/:/mosquitto/data
+      - ./mosquitto/log/:/mosquitto/log
+
+    ports:
+      - 1883:1883
+      - 9001:9001
+    networks:
+      - intnet
+  influxdb:
+    image: influxdb:${ENV_INFLUXDB_IMAGE_VERSION}
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: ${ENV_INFLUXDB_INIT_MODE}
+      DOCKER_INFLUXDB_INIT_USERNAME: ${ENV_INFLUXDB_ADMIN_USER}
+      DOCKER_INFLUXDB_INIT_PASSWORD: ${ENV_INFLUXDB_ADMIN_PASSWORD}
+      DOCKER_INFLUXDB_INIT_ORG: ${ENV_INFLUXDB_ORG}
+      DOCKER_INFLUXDB_INIT_BUCKET: ${ENV_INFLUXDB_BUCKET}
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: ${ENV_INFLUXDB_TOKEN}
+    restart: unless-stopped
+    networks:
+      - intnet
+    ports:
+      - ${ENV_INFLUXDB_HTTP_PORT}:${ENV_INFLUXDB_HTTP_PORT}
+      - ${ENV_INFLUXDB_RPC_PORT}:${ENV_INFLUXDB_RPC_PORT}
+    expose:
+      - ${ENV_INFLUXDB_HTTP_PORT}
+      - ${ENV_INFLUXDB_RPC_PORT}
+
+  telegraf:
+    image: telegraf:${ENV_TELEGRAF_IMAGE_VERSION}
+    volumes:
+      - ./telegraf/conf:/etc/telegraf
+    depends_on:
+      - influxdb
+      - mosquitto
+    restart: unless-stopped
+    links:
+      - influxdb
+    networks:
+      - intnet
+    expose:
+      - ${ENV_TELEGRAF_UDP_PORT}/udp
