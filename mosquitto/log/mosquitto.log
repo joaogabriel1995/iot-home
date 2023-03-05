@@ -1,0 +1,1943 @@
+1678035600: mosquitto version 2.0.15 starting
+1678035600: Config loaded from /mosquitto/config/mosquitto.conf.
+1678035600: Opening ipv4 listen socket on port 1883.
+1678035600: Opening ipv6 listen socket on port 1883.
+1678035600: mosquitto version 2.0.15 running
+1678035601: New connection from 172.20.0.1:40642 on port 1883.
+1678035601: New client connected from 172.20.0.1:40642 as mqttjs_19100eb0 (p2, c1, k60, u'admin').
+1678035649: mosquitto version 2.0.15 terminating
+1678035651: mosquitto version 2.0.15 starting
+1678035651: Config loaded from /mosquitto/config/mosquitto.conf.
+1678035651: Opening ipv4 listen socket on port 1883.
+1678035651: Opening ipv6 listen socket on port 1883.
+1678035651: mosquitto version 2.0.15 running
+1678035651: New connection from 172.20.0.1:35400 on port 1883.
+1678035651: New client connected from 172.20.0.1:35400 as mqttjs_19100eb0 (p2, c1, k60, u'admin').
+1678035651: New connection from 172.20.0.4:35648 on port 1883.
+1678035651: New client connected from 172.20.0.4:35648 as Telegraf-Consumer-bSxiK (p2, c1, k60, u'admin').
+1678036066: mosquitto version 2.0.15 starting
+1678036066: Config loaded from /mosquitto/config/mosquitto.conf.
+1678036066: Error: Invalid password hash type for user admin, removing entry.
+1678036066: Opening ipv4 listen socket on port 1883.
+1678036066: Opening ipv6 listen socket on port 1883.
+1678036066: mosquitto version 2.0.15 running
+1678036066: New connection from 172.20.0.1:53206 on port 1883.
+1678036066: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036067: New connection from 172.20.0.1:53222 on port 1883.
+1678036067: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036068: New connection from 172.20.0.1:33232 on port 1883.
+1678036068: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036069: New connection from 172.20.0.1:33240 on port 1883.
+1678036069: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036070: New connection from 172.20.0.4:33770 on port 1883.
+1678036070: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036070: New connection from 172.20.0.1:33254 on port 1883.
+1678036070: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036071: New connection from 172.20.0.1:33262 on port 1883.
+1678036071: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036072: New connection from 172.20.0.1:33264 on port 1883.
+1678036072: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036073: New connection from 172.20.0.1:33266 on port 1883.
+1678036073: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036074: New connection from 172.20.0.1:33274 on port 1883.
+1678036074: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036075: New connection from 172.20.0.1:33278 on port 1883.
+1678036075: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036076: New connection from 172.20.0.1:33284 on port 1883.
+1678036076: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036077: New connection from 172.20.0.1:33292 on port 1883.
+1678036077: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036078: New connection from 172.20.0.1:46714 on port 1883.
+1678036078: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036079: New connection from 172.20.0.1:46730 on port 1883.
+1678036079: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036080: New connection from 172.20.0.4:50412 on port 1883.
+1678036080: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036080: New connection from 172.20.0.1:46746 on port 1883.
+1678036080: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036081: New connection from 172.20.0.1:46752 on port 1883.
+1678036081: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036082: New connection from 172.20.0.1:46758 on port 1883.
+1678036082: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036083: New connection from 172.20.0.1:46768 on port 1883.
+1678036083: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036084: New connection from 172.20.0.1:46776 on port 1883.
+1678036084: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036085: New connection from 172.20.0.1:46784 on port 1883.
+1678036085: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036086: New connection from 172.20.0.1:46790 on port 1883.
+1678036086: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036087: New connection from 172.20.0.1:46798 on port 1883.
+1678036087: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036088: New connection from 172.20.0.1:34500 on port 1883.
+1678036088: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036089: New connection from 172.20.0.1:34510 on port 1883.
+1678036089: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036090: New connection from 172.20.0.4:55394 on port 1883.
+1678036090: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036090: New connection from 172.20.0.1:34526 on port 1883.
+1678036090: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036091: New connection from 172.20.0.1:34536 on port 1883.
+1678036091: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036092: New connection from 172.20.0.1:34546 on port 1883.
+1678036092: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036093: New connection from 172.20.0.1:34548 on port 1883.
+1678036093: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036094: New connection from 172.20.0.1:34552 on port 1883.
+1678036094: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036095: New connection from 172.20.0.1:34556 on port 1883.
+1678036095: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036096: New connection from 172.20.0.1:34572 on port 1883.
+1678036096: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036097: New connection from 172.20.0.1:34578 on port 1883.
+1678036097: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036098: New connection from 172.20.0.1:57472 on port 1883.
+1678036098: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036099: New connection from 172.20.0.1:57482 on port 1883.
+1678036099: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036100: New connection from 172.20.0.4:42820 on port 1883.
+1678036100: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036100: New connection from 172.20.0.1:57486 on port 1883.
+1678036100: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036101: New connection from 172.20.0.1:57496 on port 1883.
+1678036101: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036102: New connection from 172.20.0.1:57508 on port 1883.
+1678036102: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036103: New connection from 172.20.0.1:57520 on port 1883.
+1678036103: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036104: New connection from 172.20.0.1:57534 on port 1883.
+1678036104: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036105: New connection from 172.20.0.1:57546 on port 1883.
+1678036105: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036106: New connection from 172.20.0.1:57558 on port 1883.
+1678036106: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036107: New connection from 172.20.0.1:57560 on port 1883.
+1678036107: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036108: New connection from 172.20.0.1:55860 on port 1883.
+1678036108: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036109: New connection from 172.20.0.1:55864 on port 1883.
+1678036109: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036110: New connection from 172.20.0.4:46764 on port 1883.
+1678036110: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036111: New connection from 172.20.0.1:55876 on port 1883.
+1678036111: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036112: New connection from 172.20.0.1:55880 on port 1883.
+1678036112: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036113: New connection from 172.20.0.1:55896 on port 1883.
+1678036113: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036114: New connection from 172.20.0.1:55908 on port 1883.
+1678036114: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036115: New connection from 172.20.0.1:55916 on port 1883.
+1678036115: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036116: New connection from 172.20.0.1:55932 on port 1883.
+1678036116: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036117: New connection from 172.20.0.1:55946 on port 1883.
+1678036117: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036118: New connection from 172.20.0.1:55952 on port 1883.
+1678036118: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036119: New connection from 172.20.0.1:48898 on port 1883.
+1678036119: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036120: New connection from 172.20.0.4:33720 on port 1883.
+1678036120: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036120: New connection from 172.20.0.1:48900 on port 1883.
+1678036120: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036121: New connection from 172.20.0.1:48906 on port 1883.
+1678036121: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036122: New connection from 172.20.0.1:48922 on port 1883.
+1678036122: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036123: New connection from 172.20.0.1:48930 on port 1883.
+1678036123: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036124: New connection from 172.20.0.1:48936 on port 1883.
+1678036124: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036125: New connection from 172.20.0.1:48948 on port 1883.
+1678036125: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036126: New connection from 172.20.0.1:48954 on port 1883.
+1678036126: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036127: New connection from 172.20.0.1:48968 on port 1883.
+1678036127: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036128: New connection from 172.20.0.1:48980 on port 1883.
+1678036128: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036129: New connection from 172.20.0.1:43958 on port 1883.
+1678036129: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036130: New connection from 172.20.0.4:39702 on port 1883.
+1678036130: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036130: New connection from 172.20.0.1:43960 on port 1883.
+1678036130: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036131: New connection from 172.20.0.1:43962 on port 1883.
+1678036131: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036132: New connection from 172.20.0.1:43964 on port 1883.
+1678036132: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036133: New connection from 172.20.0.1:43968 on port 1883.
+1678036133: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036134: New connection from 172.20.0.1:43980 on port 1883.
+1678036134: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036135: New connection from 172.20.0.1:43988 on port 1883.
+1678036135: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036136: New connection from 172.20.0.1:44004 on port 1883.
+1678036136: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036137: New connection from 172.20.0.1:44016 on port 1883.
+1678036137: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036138: New connection from 172.20.0.1:44024 on port 1883.
+1678036138: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036139: New connection from 172.20.0.1:40810 on port 1883.
+1678036139: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036140: New connection from 172.20.0.4:49280 on port 1883.
+1678036140: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036140: New connection from 172.20.0.1:40818 on port 1883.
+1678036140: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036141: New connection from 172.20.0.1:40832 on port 1883.
+1678036141: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036142: New connection from 172.20.0.1:40846 on port 1883.
+1678036142: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036143: New connection from 172.20.0.1:40848 on port 1883.
+1678036143: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036144: New connection from 172.20.0.1:40858 on port 1883.
+1678036144: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036145: New connection from 172.20.0.1:40868 on port 1883.
+1678036145: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036146: New connection from 172.20.0.1:40874 on port 1883.
+1678036146: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036147: New connection from 172.20.0.1:40882 on port 1883.
+1678036147: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036148: New connection from 172.20.0.1:40898 on port 1883.
+1678036148: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036149: New connection from 172.20.0.1:36600 on port 1883.
+1678036149: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036150: New connection from 172.20.0.4:60102 on port 1883.
+1678036150: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036150: New connection from 172.20.0.1:36606 on port 1883.
+1678036150: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036151: New connection from 172.20.0.1:36618 on port 1883.
+1678036151: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036152: New connection from 172.20.0.1:36628 on port 1883.
+1678036152: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036153: New connection from 172.20.0.1:36636 on port 1883.
+1678036153: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036154: New connection from 172.20.0.1:36650 on port 1883.
+1678036154: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036155: New connection from 172.20.0.1:36666 on port 1883.
+1678036155: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036156: New connection from 172.20.0.1:36678 on port 1883.
+1678036156: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036157: New connection from 172.20.0.1:36684 on port 1883.
+1678036157: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036158: New connection from 172.20.0.1:36688 on port 1883.
+1678036158: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036159: New connection from 172.20.0.1:43678 on port 1883.
+1678036159: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036160: New connection from 172.20.0.4:49240 on port 1883.
+1678036160: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036160: New connection from 172.20.0.1:43688 on port 1883.
+1678036160: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036161: New connection from 172.20.0.1:43700 on port 1883.
+1678036161: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036162: New connection from 172.20.0.1:43716 on port 1883.
+1678036162: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036163: New connection from 172.20.0.1:43728 on port 1883.
+1678036163: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036164: New connection from 172.20.0.1:43736 on port 1883.
+1678036164: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036165: New connection from 172.20.0.1:43746 on port 1883.
+1678036165: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036166: New connection from 172.20.0.1:43748 on port 1883.
+1678036166: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036167: New connection from 172.20.0.1:43756 on port 1883.
+1678036167: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036168: New connection from 172.20.0.1:43764 on port 1883.
+1678036168: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036169: New connection from 172.20.0.1:52938 on port 1883.
+1678036169: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036170: New connection from 172.20.0.4:50722 on port 1883.
+1678036170: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036170: New connection from 172.20.0.1:52944 on port 1883.
+1678036170: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036171: New connection from 172.20.0.1:52950 on port 1883.
+1678036171: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036172: New connection from 172.20.0.1:52966 on port 1883.
+1678036172: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036173: New connection from 172.20.0.1:52978 on port 1883.
+1678036173: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036174: New connection from 172.20.0.1:52980 on port 1883.
+1678036174: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036175: New connection from 172.20.0.1:52990 on port 1883.
+1678036175: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036176: New connection from 172.20.0.1:53000 on port 1883.
+1678036176: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036177: New connection from 172.20.0.1:53002 on port 1883.
+1678036177: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036178: New connection from 172.20.0.1:53004 on port 1883.
+1678036178: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036179: New connection from 172.20.0.1:49378 on port 1883.
+1678036179: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036180: New connection from 172.20.0.4:44680 on port 1883.
+1678036180: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036180: New connection from 172.20.0.1:49392 on port 1883.
+1678036180: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036181: New connection from 172.20.0.1:49408 on port 1883.
+1678036181: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036182: New connection from 172.20.0.1:49416 on port 1883.
+1678036182: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036183: New connection from 172.20.0.1:49432 on port 1883.
+1678036183: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036184: New connection from 172.20.0.1:49446 on port 1883.
+1678036184: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036185: New connection from 172.20.0.1:49462 on port 1883.
+1678036185: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036186: New connection from 172.20.0.1:49466 on port 1883.
+1678036186: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036187: New connection from 172.20.0.1:49472 on port 1883.
+1678036187: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036188: New connection from 172.20.0.1:49482 on port 1883.
+1678036188: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036189: New connection from 172.20.0.1:45254 on port 1883.
+1678036189: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036190: New connection from 172.20.0.4:40930 on port 1883.
+1678036190: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036190: New connection from 172.20.0.1:45256 on port 1883.
+1678036190: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036191: New connection from 172.20.0.1:45272 on port 1883.
+1678036191: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036192: New connection from 172.20.0.1:45278 on port 1883.
+1678036192: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036193: New connection from 172.20.0.1:45282 on port 1883.
+1678036193: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036194: New connection from 172.20.0.1:45292 on port 1883.
+1678036194: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036195: New connection from 172.20.0.1:45302 on port 1883.
+1678036195: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036196: New connection from 172.20.0.1:45312 on port 1883.
+1678036196: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036197: New connection from 172.20.0.1:45324 on port 1883.
+1678036197: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036198: New connection from 172.20.0.1:45326 on port 1883.
+1678036198: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036199: New connection from 172.20.0.1:37932 on port 1883.
+1678036199: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036200: New connection from 172.20.0.4:44198 on port 1883.
+1678036200: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036200: New connection from 172.20.0.1:37936 on port 1883.
+1678036200: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036201: New connection from 172.20.0.1:37938 on port 1883.
+1678036201: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036202: New connection from 172.20.0.1:37942 on port 1883.
+1678036202: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036203: New connection from 172.20.0.1:37950 on port 1883.
+1678036203: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036204: New connection from 172.20.0.1:37960 on port 1883.
+1678036204: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036205: New connection from 172.20.0.1:37974 on port 1883.
+1678036205: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036206: New connection from 172.20.0.1:37980 on port 1883.
+1678036206: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036207: New connection from 172.20.0.1:37996 on port 1883.
+1678036207: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036208: New connection from 172.20.0.1:38008 on port 1883.
+1678036208: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036209: New connection from 172.20.0.1:56182 on port 1883.
+1678036209: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036210: New connection from 172.20.0.4:57578 on port 1883.
+1678036210: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036210: New connection from 172.20.0.1:56188 on port 1883.
+1678036210: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036211: New connection from 172.20.0.1:56192 on port 1883.
+1678036211: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036212: New connection from 172.20.0.1:56204 on port 1883.
+1678036212: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036213: New connection from 172.20.0.1:56210 on port 1883.
+1678036213: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036214: New connection from 172.20.0.1:56226 on port 1883.
+1678036214: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036215: New connection from 172.20.0.1:56234 on port 1883.
+1678036215: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036216: New connection from 172.20.0.1:56246 on port 1883.
+1678036216: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036217: New connection from 172.20.0.1:56258 on port 1883.
+1678036217: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036218: New connection from 172.20.0.1:56262 on port 1883.
+1678036218: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036219: New connection from 172.20.0.1:38370 on port 1883.
+1678036219: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036220: New connection from 172.20.0.4:48630 on port 1883.
+1678036220: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036220: New connection from 172.20.0.1:38384 on port 1883.
+1678036220: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036221: New connection from 172.20.0.1:38388 on port 1883.
+1678036221: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036222: New connection from 172.20.0.1:38398 on port 1883.
+1678036222: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036223: New connection from 172.20.0.1:38410 on port 1883.
+1678036223: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036224: New connection from 172.20.0.1:38418 on port 1883.
+1678036224: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036225: New connection from 172.20.0.1:38432 on port 1883.
+1678036225: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036226: New connection from 172.20.0.1:38446 on port 1883.
+1678036226: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036227: New connection from 172.20.0.1:38454 on port 1883.
+1678036227: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036228: New connection from 172.20.0.1:60858 on port 1883.
+1678036228: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036229: New connection from 172.20.0.1:60862 on port 1883.
+1678036229: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036230: New connection from 172.20.0.4:59292 on port 1883.
+1678036230: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036230: New connection from 172.20.0.1:60864 on port 1883.
+1678036230: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036231: New connection from 172.20.0.1:60876 on port 1883.
+1678036231: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036232: New connection from 172.20.0.1:60888 on port 1883.
+1678036232: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036233: New connection from 172.20.0.1:60904 on port 1883.
+1678036233: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036234: New connection from 172.20.0.1:60908 on port 1883.
+1678036234: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036235: New connection from 172.20.0.1:60912 on port 1883.
+1678036235: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036236: New connection from 172.20.0.1:60922 on port 1883.
+1678036236: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036237: New connection from 172.20.0.1:60932 on port 1883.
+1678036237: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036238: New connection from 172.20.0.1:47342 on port 1883.
+1678036238: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036239: New connection from 172.20.0.1:47344 on port 1883.
+1678036239: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036240: New connection from 172.20.0.4:37566 on port 1883.
+1678036240: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036240: New connection from 172.20.0.1:47350 on port 1883.
+1678036240: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036241: New connection from 172.20.0.1:47364 on port 1883.
+1678036241: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036242: New connection from 172.20.0.1:47370 on port 1883.
+1678036242: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036243: New connection from 172.20.0.1:47382 on port 1883.
+1678036243: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036244: New connection from 172.20.0.1:47392 on port 1883.
+1678036244: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036245: New connection from 172.20.0.1:47402 on port 1883.
+1678036245: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036246: New connection from 172.20.0.1:47414 on port 1883.
+1678036246: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036247: New connection from 172.20.0.1:47418 on port 1883.
+1678036247: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036248: New connection from 172.20.0.1:38354 on port 1883.
+1678036248: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036249: New connection from 172.20.0.1:38368 on port 1883.
+1678036249: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036250: New connection from 172.20.0.4:54272 on port 1883.
+1678036250: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036250: New connection from 172.20.0.1:38382 on port 1883.
+1678036250: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036251: New connection from 172.20.0.1:38392 on port 1883.
+1678036251: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036252: New connection from 172.20.0.1:38396 on port 1883.
+1678036252: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036253: New connection from 172.20.0.1:38398 on port 1883.
+1678036253: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036254: New connection from 172.20.0.1:38400 on port 1883.
+1678036254: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036255: New connection from 172.20.0.1:38404 on port 1883.
+1678036255: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036256: New connection from 172.20.0.1:38410 on port 1883.
+1678036256: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036257: New connection from 172.20.0.1:38412 on port 1883.
+1678036257: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036258: New connection from 172.20.0.1:48754 on port 1883.
+1678036258: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036259: New connection from 172.20.0.1:48770 on port 1883.
+1678036259: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036260: New connection from 172.20.0.4:33914 on port 1883.
+1678036260: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036260: New connection from 172.20.0.1:48786 on port 1883.
+1678036260: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036261: New connection from 172.20.0.1:48792 on port 1883.
+1678036261: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036262: New connection from 172.20.0.1:48808 on port 1883.
+1678036262: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036263: New connection from 172.20.0.1:48822 on port 1883.
+1678036263: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036264: New connection from 172.20.0.1:48826 on port 1883.
+1678036264: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036265: New connection from 172.20.0.1:48840 on port 1883.
+1678036265: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036266: New connection from 172.20.0.1:48844 on port 1883.
+1678036266: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036267: New connection from 172.20.0.1:48858 on port 1883.
+1678036267: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036268: New connection from 172.20.0.1:32794 on port 1883.
+1678036268: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036269: New connection from 172.20.0.1:32804 on port 1883.
+1678036269: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036270: New connection from 172.20.0.4:60946 on port 1883.
+1678036270: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036270: New connection from 172.20.0.1:32818 on port 1883.
+1678036270: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036271: New connection from 172.20.0.1:32828 on port 1883.
+1678036271: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036272: New connection from 172.20.0.1:32840 on port 1883.
+1678036272: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036273: New connection from 172.20.0.1:32846 on port 1883.
+1678036273: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036274: New connection from 172.20.0.1:32852 on port 1883.
+1678036274: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036275: New connection from 172.20.0.1:32858 on port 1883.
+1678036275: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036276: New connection from 172.20.0.1:32870 on port 1883.
+1678036276: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036277: New connection from 172.20.0.1:32876 on port 1883.
+1678036277: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036278: New connection from 172.20.0.1:40962 on port 1883.
+1678036278: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036279: New connection from 172.20.0.1:40966 on port 1883.
+1678036279: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036280: New connection from 172.20.0.4:45704 on port 1883.
+1678036280: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036280: New connection from 172.20.0.1:40972 on port 1883.
+1678036280: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036281: New connection from 172.20.0.1:40978 on port 1883.
+1678036281: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036282: New connection from 172.20.0.1:40982 on port 1883.
+1678036282: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036283: New connection from 172.20.0.1:40996 on port 1883.
+1678036283: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036284: New connection from 172.20.0.1:41010 on port 1883.
+1678036284: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036285: New connection from 172.20.0.1:41014 on port 1883.
+1678036285: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036286: New connection from 172.20.0.1:41028 on port 1883.
+1678036286: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036287: New connection from 172.20.0.1:41044 on port 1883.
+1678036287: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036288: New connection from 172.20.0.1:60558 on port 1883.
+1678036288: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036289: New connection from 172.20.0.1:60572 on port 1883.
+1678036289: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036290: New connection from 172.20.0.4:34852 on port 1883.
+1678036290: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036290: New connection from 172.20.0.1:60580 on port 1883.
+1678036290: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036291: New connection from 172.20.0.1:60590 on port 1883.
+1678036291: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036292: New connection from 172.20.0.1:60596 on port 1883.
+1678036292: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036293: New connection from 172.20.0.1:60604 on port 1883.
+1678036293: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036294: New connection from 172.20.0.1:60616 on port 1883.
+1678036294: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036295: New connection from 172.20.0.1:60620 on port 1883.
+1678036295: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036296: New connection from 172.20.0.1:60622 on port 1883.
+1678036296: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036297: New connection from 172.20.0.1:60630 on port 1883.
+1678036297: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036298: New connection from 172.20.0.1:55976 on port 1883.
+1678036298: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036299: New connection from 172.20.0.1:55980 on port 1883.
+1678036299: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036300: New connection from 172.20.0.4:42024 on port 1883.
+1678036300: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036300: New connection from 172.20.0.1:55986 on port 1883.
+1678036300: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036301: New connection from 172.20.0.1:56002 on port 1883.
+1678036301: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036302: New connection from 172.20.0.1:56008 on port 1883.
+1678036302: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036303: New connection from 172.20.0.1:56022 on port 1883.
+1678036303: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036304: New connection from 172.20.0.1:56034 on port 1883.
+1678036304: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036305: New connection from 172.20.0.1:56040 on port 1883.
+1678036305: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036306: New connection from 172.20.0.1:56050 on port 1883.
+1678036306: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036307: New connection from 172.20.0.1:56066 on port 1883.
+1678036307: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036308: New connection from 172.20.0.1:51156 on port 1883.
+1678036308: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036309: New connection from 172.20.0.1:51158 on port 1883.
+1678036309: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036310: New connection from 172.20.0.4:43682 on port 1883.
+1678036310: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036310: New connection from 172.20.0.1:51170 on port 1883.
+1678036310: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036311: New connection from 172.20.0.1:51186 on port 1883.
+1678036311: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036312: New connection from 172.20.0.1:51202 on port 1883.
+1678036312: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036313: New connection from 172.20.0.1:51204 on port 1883.
+1678036313: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036314: New connection from 172.20.0.1:51208 on port 1883.
+1678036314: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036315: New connection from 172.20.0.1:51224 on port 1883.
+1678036315: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036316: New connection from 172.20.0.1:51234 on port 1883.
+1678036316: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036317: New connection from 172.20.0.1:51242 on port 1883.
+1678036317: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036318: New connection from 172.20.0.1:33136 on port 1883.
+1678036318: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036319: New connection from 172.20.0.1:33142 on port 1883.
+1678036319: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036320: New connection from 172.20.0.4:48556 on port 1883.
+1678036320: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036320: New connection from 172.20.0.1:33154 on port 1883.
+1678036320: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036321: New connection from 172.20.0.1:33160 on port 1883.
+1678036321: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036322: New connection from 172.20.0.1:33168 on port 1883.
+1678036322: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036323: New connection from 172.20.0.1:33178 on port 1883.
+1678036323: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036324: New connection from 172.20.0.1:33190 on port 1883.
+1678036324: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036325: New connection from 172.20.0.1:33200 on port 1883.
+1678036325: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036326: New connection from 172.20.0.1:33214 on port 1883.
+1678036326: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036327: New connection from 172.20.0.1:33226 on port 1883.
+1678036327: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036328: New connection from 172.20.0.1:43506 on port 1883.
+1678036328: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036329: New connection from 172.20.0.1:43508 on port 1883.
+1678036329: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036330: New connection from 172.20.0.4:43448 on port 1883.
+1678036330: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036330: New connection from 172.20.0.1:43522 on port 1883.
+1678036330: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036331: New connection from 172.20.0.1:43532 on port 1883.
+1678036331: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036332: New connection from 172.20.0.1:43534 on port 1883.
+1678036332: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036333: New connection from 172.20.0.1:43544 on port 1883.
+1678036333: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036334: New connection from 172.20.0.1:43554 on port 1883.
+1678036334: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036335: New connection from 172.20.0.1:43566 on port 1883.
+1678036335: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036336: New connection from 172.20.0.1:43578 on port 1883.
+1678036336: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036337: New connection from 172.20.0.1:43590 on port 1883.
+1678036337: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036338: New connection from 172.20.0.1:55496 on port 1883.
+1678036338: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036339: New connection from 172.20.0.1:55500 on port 1883.
+1678036339: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036340: New connection from 172.20.0.4:42282 on port 1883.
+1678036340: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036340: New connection from 172.20.0.1:55506 on port 1883.
+1678036340: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036341: New connection from 172.20.0.1:55516 on port 1883.
+1678036341: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036342: New connection from 172.20.0.1:55520 on port 1883.
+1678036342: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036343: New connection from 172.20.0.1:55526 on port 1883.
+1678036343: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036344: New connection from 172.20.0.1:55534 on port 1883.
+1678036344: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036345: New connection from 172.20.0.1:55550 on port 1883.
+1678036345: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036346: New connection from 172.20.0.1:55558 on port 1883.
+1678036346: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036347: New connection from 172.20.0.1:55574 on port 1883.
+1678036347: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036348: New connection from 172.20.0.1:43580 on port 1883.
+1678036348: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036349: New connection from 172.20.0.1:43582 on port 1883.
+1678036349: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036350: New connection from 172.20.0.4:45502 on port 1883.
+1678036350: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036350: New connection from 172.20.0.1:43590 on port 1883.
+1678036350: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036351: New connection from 172.20.0.1:43606 on port 1883.
+1678036351: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036352: New connection from 172.20.0.1:43612 on port 1883.
+1678036352: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036353: New connection from 172.20.0.1:43620 on port 1883.
+1678036353: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036354: New connection from 172.20.0.1:43622 on port 1883.
+1678036354: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036355: New connection from 172.20.0.1:43638 on port 1883.
+1678036355: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036356: New connection from 172.20.0.1:43654 on port 1883.
+1678036356: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036357: New connection from 172.20.0.1:43656 on port 1883.
+1678036357: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036358: New connection from 172.20.0.1:53516 on port 1883.
+1678036358: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036359: New connection from 172.20.0.1:53532 on port 1883.
+1678036359: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036360: New connection from 172.20.0.4:47400 on port 1883.
+1678036360: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036360: New connection from 172.20.0.1:53546 on port 1883.
+1678036360: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036361: New connection from 172.20.0.1:53554 on port 1883.
+1678036361: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036362: New connection from 172.20.0.1:53556 on port 1883.
+1678036362: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036363: New connection from 172.20.0.1:53562 on port 1883.
+1678036363: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036364: New connection from 172.20.0.1:53564 on port 1883.
+1678036364: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036365: New connection from 172.20.0.1:53574 on port 1883.
+1678036365: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036366: New connection from 172.20.0.1:53582 on port 1883.
+1678036366: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036367: New connection from 172.20.0.1:53584 on port 1883.
+1678036367: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036368: New connection from 172.20.0.1:56346 on port 1883.
+1678036368: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036369: New connection from 172.20.0.1:56356 on port 1883.
+1678036369: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036370: New connection from 172.20.0.4:36136 on port 1883.
+1678036370: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036370: New connection from 172.20.0.1:56360 on port 1883.
+1678036370: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036371: New connection from 172.20.0.1:56362 on port 1883.
+1678036371: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036372: New connection from 172.20.0.1:56368 on port 1883.
+1678036372: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036373: New connection from 172.20.0.1:56380 on port 1883.
+1678036373: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036374: New connection from 172.20.0.1:56384 on port 1883.
+1678036374: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036375: New connection from 172.20.0.1:56386 on port 1883.
+1678036375: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036376: New connection from 172.20.0.1:56388 on port 1883.
+1678036376: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036377: New connection from 172.20.0.1:56394 on port 1883.
+1678036377: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036379: New connection from 172.20.0.1:38462 on port 1883.
+1678036379: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036380: New connection from 172.20.0.4:50858 on port 1883.
+1678036380: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036380: New connection from 172.20.0.1:38468 on port 1883.
+1678036380: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036381: New connection from 172.20.0.1:38484 on port 1883.
+1678036381: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036382: New connection from 172.20.0.1:38500 on port 1883.
+1678036382: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036383: New connection from 172.20.0.1:38506 on port 1883.
+1678036383: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036384: New connection from 172.20.0.1:38510 on port 1883.
+1678036384: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036385: New connection from 172.20.0.1:38520 on port 1883.
+1678036385: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036386: New connection from 172.20.0.1:38524 on port 1883.
+1678036386: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036387: New connection from 172.20.0.1:38526 on port 1883.
+1678036387: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036388: New connection from 172.20.0.1:38536 on port 1883.
+1678036388: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036389: New connection from 172.20.0.1:44116 on port 1883.
+1678036389: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036390: New connection from 172.20.0.4:52448 on port 1883.
+1678036390: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036390: New connection from 172.20.0.1:44130 on port 1883.
+1678036390: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036391: New connection from 172.20.0.1:44132 on port 1883.
+1678036391: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036392: New connection from 172.20.0.1:44144 on port 1883.
+1678036392: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036393: New connection from 172.20.0.1:44158 on port 1883.
+1678036393: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036394: New connection from 172.20.0.1:44160 on port 1883.
+1678036394: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036395: New connection from 172.20.0.1:44164 on port 1883.
+1678036395: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036396: New connection from 172.20.0.1:44170 on port 1883.
+1678036396: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036397: New connection from 172.20.0.1:44182 on port 1883.
+1678036397: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036398: New connection from 172.20.0.1:44198 on port 1883.
+1678036398: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036399: New connection from 172.20.0.1:56604 on port 1883.
+1678036399: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036400: New connection from 172.20.0.4:50684 on port 1883.
+1678036400: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036400: New connection from 172.20.0.1:56616 on port 1883.
+1678036400: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036401: New connection from 172.20.0.1:56628 on port 1883.
+1678036401: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036402: New connection from 172.20.0.1:56638 on port 1883.
+1678036402: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036403: New connection from 172.20.0.1:56640 on port 1883.
+1678036403: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036404: New connection from 172.20.0.1:56652 on port 1883.
+1678036404: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036405: New connection from 172.20.0.1:56662 on port 1883.
+1678036405: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036406: New connection from 172.20.0.1:56674 on port 1883.
+1678036406: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036407: New connection from 172.20.0.1:56688 on port 1883.
+1678036407: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036408: New connection from 172.20.0.1:56690 on port 1883.
+1678036408: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036409: New connection from 172.20.0.1:55548 on port 1883.
+1678036409: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036410: New connection from 172.20.0.4:36492 on port 1883.
+1678036410: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036410: New connection from 172.20.0.1:55552 on port 1883.
+1678036410: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036411: New connection from 172.20.0.1:55556 on port 1883.
+1678036411: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036412: New connection from 172.20.0.1:55570 on port 1883.
+1678036412: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036413: New connection from 172.20.0.1:55572 on port 1883.
+1678036413: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036414: New connection from 172.20.0.1:55580 on port 1883.
+1678036414: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036415: New connection from 172.20.0.1:55586 on port 1883.
+1678036415: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036416: New connection from 172.20.0.1:55592 on port 1883.
+1678036416: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036417: New connection from 172.20.0.1:55608 on port 1883.
+1678036417: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036418: New connection from 172.20.0.1:55614 on port 1883.
+1678036418: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036419: New connection from 172.20.0.1:58442 on port 1883.
+1678036419: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036420: New connection from 172.20.0.4:53124 on port 1883.
+1678036420: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036420: New connection from 172.20.0.1:58448 on port 1883.
+1678036420: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036421: New connection from 172.20.0.1:58456 on port 1883.
+1678036421: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036422: New connection from 172.20.0.1:58462 on port 1883.
+1678036422: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036423: New connection from 172.20.0.1:58472 on port 1883.
+1678036423: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036424: New connection from 172.20.0.1:58476 on port 1883.
+1678036424: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036425: New connection from 172.20.0.1:58482 on port 1883.
+1678036425: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036426: New connection from 172.20.0.1:58490 on port 1883.
+1678036426: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036427: New connection from 172.20.0.1:58506 on port 1883.
+1678036427: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036428: New connection from 172.20.0.1:58516 on port 1883.
+1678036428: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036429: New connection from 172.20.0.1:60716 on port 1883.
+1678036429: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036430: New connection from 172.20.0.4:44100 on port 1883.
+1678036430: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036430: New connection from 172.20.0.1:60718 on port 1883.
+1678036430: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036431: New connection from 172.20.0.1:60728 on port 1883.
+1678036431: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036432: New connection from 172.20.0.1:60738 on port 1883.
+1678036432: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036433: New connection from 172.20.0.1:60754 on port 1883.
+1678036433: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036434: New connection from 172.20.0.1:60766 on port 1883.
+1678036434: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036435: New connection from 172.20.0.1:60770 on port 1883.
+1678036435: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036436: New connection from 172.20.0.1:60774 on port 1883.
+1678036436: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036437: New connection from 172.20.0.1:60776 on port 1883.
+1678036437: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036438: New connection from 172.20.0.1:60788 on port 1883.
+1678036438: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036439: New connection from 172.20.0.1:46460 on port 1883.
+1678036439: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036440: New connection from 172.20.0.4:46272 on port 1883.
+1678036440: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036440: New connection from 172.20.0.1:46468 on port 1883.
+1678036440: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036441: New connection from 172.20.0.1:46474 on port 1883.
+1678036441: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036442: New connection from 172.20.0.1:46490 on port 1883.
+1678036442: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036443: New connection from 172.20.0.1:46502 on port 1883.
+1678036443: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036444: New connection from 172.20.0.1:46518 on port 1883.
+1678036444: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036445: New connection from 172.20.0.1:46522 on port 1883.
+1678036445: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036446: New connection from 172.20.0.1:46526 on port 1883.
+1678036446: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036447: New connection from 172.20.0.1:46532 on port 1883.
+1678036447: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036448: New connection from 172.20.0.1:46544 on port 1883.
+1678036448: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036449: New connection from 172.20.0.1:45622 on port 1883.
+1678036449: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036450: New connection from 172.20.0.4:44890 on port 1883.
+1678036450: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036450: New connection from 172.20.0.1:45634 on port 1883.
+1678036450: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036451: New connection from 172.20.0.1:45640 on port 1883.
+1678036451: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036452: New connection from 172.20.0.1:45652 on port 1883.
+1678036452: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036453: New connection from 172.20.0.1:45662 on port 1883.
+1678036453: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036454: New connection from 172.20.0.1:45666 on port 1883.
+1678036454: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036455: New connection from 172.20.0.1:45680 on port 1883.
+1678036455: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036456: New connection from 172.20.0.1:45688 on port 1883.
+1678036456: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036457: New connection from 172.20.0.1:45700 on port 1883.
+1678036457: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036458: New connection from 172.20.0.1:45704 on port 1883.
+1678036458: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036459: New connection from 172.20.0.1:39644 on port 1883.
+1678036459: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036460: New connection from 172.20.0.4:39080 on port 1883.
+1678036460: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036460: New connection from 172.20.0.1:39660 on port 1883.
+1678036460: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036461: New connection from 172.20.0.1:39676 on port 1883.
+1678036461: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036462: New connection from 172.20.0.1:39680 on port 1883.
+1678036462: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036463: New connection from 172.20.0.1:39686 on port 1883.
+1678036463: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036464: New connection from 172.20.0.1:39688 on port 1883.
+1678036464: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036465: New connection from 172.20.0.1:39700 on port 1883.
+1678036465: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036466: New connection from 172.20.0.1:39704 on port 1883.
+1678036466: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036467: New connection from 172.20.0.1:39712 on port 1883.
+1678036467: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036468: New connection from 172.20.0.1:39726 on port 1883.
+1678036468: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036469: New connection from 172.20.0.1:49856 on port 1883.
+1678036469: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036470: New connection from 172.20.0.4:54744 on port 1883.
+1678036470: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036470: New connection from 172.20.0.1:49862 on port 1883.
+1678036470: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036471: New connection from 172.20.0.1:49870 on port 1883.
+1678036471: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036472: New connection from 172.20.0.1:49880 on port 1883.
+1678036472: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036473: New connection from 172.20.0.1:49896 on port 1883.
+1678036473: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036474: New connection from 172.20.0.1:49906 on port 1883.
+1678036474: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036475: New connection from 172.20.0.1:49910 on port 1883.
+1678036475: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036476: New connection from 172.20.0.1:49914 on port 1883.
+1678036476: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036477: New connection from 172.20.0.1:49924 on port 1883.
+1678036477: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036478: New connection from 172.20.0.1:49930 on port 1883.
+1678036478: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036479: New connection from 172.20.0.1:52628 on port 1883.
+1678036479: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036480: New connection from 172.20.0.4:57694 on port 1883.
+1678036480: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036480: New connection from 172.20.0.1:52644 on port 1883.
+1678036480: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036481: New connection from 172.20.0.1:52648 on port 1883.
+1678036481: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036482: New connection from 172.20.0.1:52660 on port 1883.
+1678036482: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036483: New connection from 172.20.0.1:52676 on port 1883.
+1678036483: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036484: New connection from 172.20.0.1:52686 on port 1883.
+1678036484: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036485: New connection from 172.20.0.1:52702 on port 1883.
+1678036485: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036486: New connection from 172.20.0.1:52704 on port 1883.
+1678036486: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036487: New connection from 172.20.0.1:52716 on port 1883.
+1678036487: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036488: New connection from 172.20.0.1:52732 on port 1883.
+1678036488: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036489: New connection from 172.20.0.1:39992 on port 1883.
+1678036489: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036490: New connection from 172.20.0.4:45490 on port 1883.
+1678036490: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036490: New connection from 172.20.0.1:39998 on port 1883.
+1678036490: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036491: New connection from 172.20.0.1:40006 on port 1883.
+1678036491: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036492: New connection from 172.20.0.1:40018 on port 1883.
+1678036492: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036493: New connection from 172.20.0.1:40034 on port 1883.
+1678036493: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036494: New connection from 172.20.0.1:40042 on port 1883.
+1678036494: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036495: New connection from 172.20.0.1:40050 on port 1883.
+1678036495: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036496: New connection from 172.20.0.1:40056 on port 1883.
+1678036496: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036497: New connection from 172.20.0.1:40066 on port 1883.
+1678036497: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036498: New connection from 172.20.0.1:40082 on port 1883.
+1678036498: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036499: New connection from 172.20.0.1:55352 on port 1883.
+1678036499: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036500: New connection from 172.20.0.4:56494 on port 1883.
+1678036500: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036500: New connection from 172.20.0.1:55366 on port 1883.
+1678036500: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036501: New connection from 172.20.0.1:55370 on port 1883.
+1678036501: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036502: New connection from 172.20.0.1:55376 on port 1883.
+1678036502: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036503: New connection from 172.20.0.1:55388 on port 1883.
+1678036503: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036504: New connection from 172.20.0.1:55398 on port 1883.
+1678036504: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036505: New connection from 172.20.0.1:55408 on port 1883.
+1678036505: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036506: New connection from 172.20.0.1:55420 on port 1883.
+1678036506: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036507: New connection from 172.20.0.1:55422 on port 1883.
+1678036507: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036508: New connection from 172.20.0.1:55426 on port 1883.
+1678036508: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036509: New connection from 172.20.0.1:45338 on port 1883.
+1678036509: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036510: New connection from 172.20.0.4:38482 on port 1883.
+1678036510: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036510: New connection from 172.20.0.1:45354 on port 1883.
+1678036510: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036511: New connection from 172.20.0.1:45360 on port 1883.
+1678036511: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036512: New connection from 172.20.0.1:45370 on port 1883.
+1678036512: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036513: New connection from 172.20.0.1:45386 on port 1883.
+1678036513: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036514: New connection from 172.20.0.1:45394 on port 1883.
+1678036514: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036515: New connection from 172.20.0.1:45410 on port 1883.
+1678036515: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036516: New connection from 172.20.0.1:45426 on port 1883.
+1678036516: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036517: New connection from 172.20.0.1:45428 on port 1883.
+1678036517: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036518: New connection from 172.20.0.1:48794 on port 1883.
+1678036518: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036519: New connection from 172.20.0.1:48802 on port 1883.
+1678036519: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036520: New connection from 172.20.0.4:43962 on port 1883.
+1678036520: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036520: New connection from 172.20.0.1:48814 on port 1883.
+1678036520: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036521: New connection from 172.20.0.1:48828 on port 1883.
+1678036521: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036522: New connection from 172.20.0.1:48830 on port 1883.
+1678036522: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036523: New connection from 172.20.0.1:48842 on port 1883.
+1678036523: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036524: New connection from 172.20.0.1:48858 on port 1883.
+1678036524: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036525: New connection from 172.20.0.1:48870 on port 1883.
+1678036525: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036526: New connection from 172.20.0.1:48878 on port 1883.
+1678036526: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036527: New connection from 172.20.0.1:48880 on port 1883.
+1678036527: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036528: New connection from 172.20.0.1:60204 on port 1883.
+1678036528: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036529: New connection from 172.20.0.1:60208 on port 1883.
+1678036529: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036530: New connection from 172.20.0.4:57508 on port 1883.
+1678036530: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036530: New connection from 172.20.0.1:60210 on port 1883.
+1678036530: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036531: New connection from 172.20.0.1:60220 on port 1883.
+1678036531: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036532: New connection from 172.20.0.1:60236 on port 1883.
+1678036532: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036533: New connection from 172.20.0.1:60248 on port 1883.
+1678036533: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036534: New connection from 172.20.0.1:60256 on port 1883.
+1678036534: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036535: New connection from 172.20.0.1:60264 on port 1883.
+1678036535: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036536: New connection from 172.20.0.1:60280 on port 1883.
+1678036536: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036537: New connection from 172.20.0.1:60286 on port 1883.
+1678036537: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036538: New connection from 172.20.0.1:59796 on port 1883.
+1678036538: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036539: New connection from 172.20.0.1:59808 on port 1883.
+1678036539: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036540: New connection from 172.20.0.4:49836 on port 1883.
+1678036540: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036540: New connection from 172.20.0.1:59814 on port 1883.
+1678036540: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036541: New connection from 172.20.0.1:59830 on port 1883.
+1678036541: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036542: New connection from 172.20.0.1:59844 on port 1883.
+1678036542: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036543: New connection from 172.20.0.1:59848 on port 1883.
+1678036543: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036544: New connection from 172.20.0.1:59862 on port 1883.
+1678036544: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036545: New connection from 172.20.0.1:59874 on port 1883.
+1678036545: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036546: New connection from 172.20.0.1:59890 on port 1883.
+1678036546: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036547: New connection from 172.20.0.1:59906 on port 1883.
+1678036547: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036548: New connection from 172.20.0.1:38874 on port 1883.
+1678036548: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036549: New connection from 172.20.0.1:38878 on port 1883.
+1678036549: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036550: New connection from 172.20.0.4:33384 on port 1883.
+1678036550: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036550: New connection from 172.20.0.1:38880 on port 1883.
+1678036550: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036551: New connection from 172.20.0.1:38890 on port 1883.
+1678036551: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036552: New connection from 172.20.0.1:38902 on port 1883.
+1678036552: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036553: New connection from 172.20.0.1:38910 on port 1883.
+1678036553: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036554: New connection from 172.20.0.1:38920 on port 1883.
+1678036554: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036555: New connection from 172.20.0.1:38922 on port 1883.
+1678036555: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036556: New connection from 172.20.0.1:38936 on port 1883.
+1678036556: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036557: New connection from 172.20.0.1:38944 on port 1883.
+1678036557: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036558: New connection from 172.20.0.1:40440 on port 1883.
+1678036558: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036559: New connection from 172.20.0.1:40448 on port 1883.
+1678036559: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036560: New connection from 172.20.0.4:41792 on port 1883.
+1678036560: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036560: New connection from 172.20.0.1:40456 on port 1883.
+1678036560: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036561: New connection from 172.20.0.1:40460 on port 1883.
+1678036561: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036562: New connection from 172.20.0.1:40466 on port 1883.
+1678036562: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036563: New connection from 172.20.0.1:40478 on port 1883.
+1678036563: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036564: New connection from 172.20.0.1:40486 on port 1883.
+1678036564: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036565: New connection from 172.20.0.1:40488 on port 1883.
+1678036565: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036566: New connection from 172.20.0.1:40494 on port 1883.
+1678036566: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036567: New connection from 172.20.0.1:40510 on port 1883.
+1678036567: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036568: New connection from 172.20.0.1:52744 on port 1883.
+1678036568: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036569: New connection from 172.20.0.1:52748 on port 1883.
+1678036569: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036570: New connection from 172.20.0.4:37164 on port 1883.
+1678036570: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036570: New connection from 172.20.0.1:52762 on port 1883.
+1678036570: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036571: New connection from 172.20.0.1:52776 on port 1883.
+1678036571: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036572: New connection from 172.20.0.1:52782 on port 1883.
+1678036572: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036573: New connection from 172.20.0.1:52792 on port 1883.
+1678036573: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036574: New connection from 172.20.0.1:52804 on port 1883.
+1678036574: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036575: New connection from 172.20.0.1:52816 on port 1883.
+1678036575: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036576: New connection from 172.20.0.1:52820 on port 1883.
+1678036576: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036577: New connection from 172.20.0.1:52828 on port 1883.
+1678036577: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036578: New connection from 172.20.0.1:55572 on port 1883.
+1678036578: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036579: New connection from 172.20.0.1:55576 on port 1883.
+1678036579: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036580: New connection from 172.20.0.4:41852 on port 1883.
+1678036580: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036580: New connection from 172.20.0.1:55580 on port 1883.
+1678036580: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036581: New connection from 172.20.0.1:55596 on port 1883.
+1678036581: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036582: New connection from 172.20.0.1:55602 on port 1883.
+1678036582: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036583: New connection from 172.20.0.1:55610 on port 1883.
+1678036583: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036584: New connection from 172.20.0.1:55616 on port 1883.
+1678036584: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036585: New connection from 172.20.0.1:55624 on port 1883.
+1678036585: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036586: New connection from 172.20.0.1:55628 on port 1883.
+1678036586: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036587: New connection from 172.20.0.1:55640 on port 1883.
+1678036587: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036588: New connection from 172.20.0.1:34676 on port 1883.
+1678036588: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036589: New connection from 172.20.0.1:34690 on port 1883.
+1678036589: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036590: New connection from 172.20.0.4:36664 on port 1883.
+1678036590: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036590: New connection from 172.20.0.1:34704 on port 1883.
+1678036590: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036591: New connection from 172.20.0.1:34706 on port 1883.
+1678036591: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036592: New connection from 172.20.0.1:34718 on port 1883.
+1678036592: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036593: New connection from 172.20.0.1:34732 on port 1883.
+1678036593: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036594: New connection from 172.20.0.1:34746 on port 1883.
+1678036594: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036595: New connection from 172.20.0.1:34750 on port 1883.
+1678036595: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036596: New connection from 172.20.0.1:34752 on port 1883.
+1678036596: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036597: New connection from 172.20.0.1:34768 on port 1883.
+1678036597: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036598: New connection from 172.20.0.1:37492 on port 1883.
+1678036598: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036599: New connection from 172.20.0.1:37500 on port 1883.
+1678036599: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036600: New connection from 172.20.0.4:37880 on port 1883.
+1678036600: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036600: New connection from 172.20.0.1:37506 on port 1883.
+1678036600: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036601: New connection from 172.20.0.1:37518 on port 1883.
+1678036601: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036602: New connection from 172.20.0.1:37528 on port 1883.
+1678036602: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036603: New connection from 172.20.0.1:37536 on port 1883.
+1678036603: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036604: New connection from 172.20.0.1:37552 on port 1883.
+1678036604: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036605: New connection from 172.20.0.1:37564 on port 1883.
+1678036605: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036606: New connection from 172.20.0.1:37572 on port 1883.
+1678036606: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036607: New connection from 172.20.0.1:37576 on port 1883.
+1678036607: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036608: New connection from 172.20.0.1:38414 on port 1883.
+1678036608: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036609: New connection from 172.20.0.1:38416 on port 1883.
+1678036609: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036610: New connection from 172.20.0.4:55982 on port 1883.
+1678036610: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036610: New connection from 172.20.0.1:38422 on port 1883.
+1678036610: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036611: New connection from 172.20.0.1:38432 on port 1883.
+1678036611: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036612: New connection from 172.20.0.1:38440 on port 1883.
+1678036612: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036613: New connection from 172.20.0.1:38444 on port 1883.
+1678036613: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036614: New connection from 172.20.0.1:38446 on port 1883.
+1678036614: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036615: New connection from 172.20.0.1:38462 on port 1883.
+1678036615: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036616: New connection from 172.20.0.1:38464 on port 1883.
+1678036616: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036617: New connection from 172.20.0.1:38474 on port 1883.
+1678036617: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036619: New connection from 172.20.0.1:44316 on port 1883.
+1678036619: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036620: New connection from 172.20.0.4:46854 on port 1883.
+1678036620: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036620: New connection from 172.20.0.1:44318 on port 1883.
+1678036620: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036621: New connection from 172.20.0.1:44332 on port 1883.
+1678036621: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036622: New connection from 172.20.0.1:44334 on port 1883.
+1678036622: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036623: New connection from 172.20.0.1:44350 on port 1883.
+1678036623: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036624: New connection from 172.20.0.1:44366 on port 1883.
+1678036624: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036625: New connection from 172.20.0.1:44372 on port 1883.
+1678036625: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036626: New connection from 172.20.0.1:44388 on port 1883.
+1678036626: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036627: New connection from 172.20.0.1:44402 on port 1883.
+1678036627: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036628: New connection from 172.20.0.1:44418 on port 1883.
+1678036628: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036629: New connection from 172.20.0.1:49118 on port 1883.
+1678036629: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036630: New connection from 172.20.0.4:55216 on port 1883.
+1678036630: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036630: New connection from 172.20.0.1:49124 on port 1883.
+1678036630: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036631: New connection from 172.20.0.1:49126 on port 1883.
+1678036631: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036632: New connection from 172.20.0.1:49132 on port 1883.
+1678036632: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036633: New connection from 172.20.0.1:49142 on port 1883.
+1678036633: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036634: New connection from 172.20.0.1:49148 on port 1883.
+1678036634: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036635: New connection from 172.20.0.1:49162 on port 1883.
+1678036635: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036636: New connection from 172.20.0.1:49172 on port 1883.
+1678036636: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036637: New connection from 172.20.0.1:49176 on port 1883.
+1678036637: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036638: New connection from 172.20.0.1:49190 on port 1883.
+1678036638: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036639: New connection from 172.20.0.1:38570 on port 1883.
+1678036639: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036640: New connection from 172.20.0.4:36244 on port 1883.
+1678036640: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036640: New connection from 172.20.0.1:38578 on port 1883.
+1678036640: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036641: New connection from 172.20.0.1:38584 on port 1883.
+1678036641: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036642: New connection from 172.20.0.1:38588 on port 1883.
+1678036642: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036643: New connection from 172.20.0.1:38598 on port 1883.
+1678036643: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036644: New connection from 172.20.0.1:38600 on port 1883.
+1678036644: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036645: New connection from 172.20.0.1:38616 on port 1883.
+1678036645: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036646: New connection from 172.20.0.1:38632 on port 1883.
+1678036646: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036647: New connection from 172.20.0.1:38648 on port 1883.
+1678036647: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036648: New connection from 172.20.0.1:38660 on port 1883.
+1678036648: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036649: New connection from 172.20.0.1:42674 on port 1883.
+1678036649: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036650: New connection from 172.20.0.4:33664 on port 1883.
+1678036650: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036650: New connection from 172.20.0.1:42688 on port 1883.
+1678036650: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036651: New connection from 172.20.0.1:42692 on port 1883.
+1678036651: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036652: New connection from 172.20.0.1:42696 on port 1883.
+1678036652: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036653: New connection from 172.20.0.1:42706 on port 1883.
+1678036653: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036654: New connection from 172.20.0.1:42720 on port 1883.
+1678036654: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036655: New connection from 172.20.0.1:42724 on port 1883.
+1678036655: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036656: New connection from 172.20.0.1:42740 on port 1883.
+1678036656: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036657: New connection from 172.20.0.1:42746 on port 1883.
+1678036657: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036658: New connection from 172.20.0.1:42758 on port 1883.
+1678036658: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036659: New connection from 172.20.0.1:51446 on port 1883.
+1678036659: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036660: New connection from 172.20.0.4:55056 on port 1883.
+1678036660: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036660: New connection from 172.20.0.1:51450 on port 1883.
+1678036660: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036661: New connection from 172.20.0.1:51462 on port 1883.
+1678036661: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036662: New connection from 172.20.0.1:51466 on port 1883.
+1678036662: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036663: New connection from 172.20.0.1:51470 on port 1883.
+1678036663: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036664: New connection from 172.20.0.1:51486 on port 1883.
+1678036664: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036665: New connection from 172.20.0.1:51490 on port 1883.
+1678036665: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036666: New connection from 172.20.0.1:51504 on port 1883.
+1678036666: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036667: New connection from 172.20.0.1:51516 on port 1883.
+1678036667: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036668: New connection from 172.20.0.1:51530 on port 1883.
+1678036668: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036669: New connection from 172.20.0.1:41218 on port 1883.
+1678036669: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036670: New connection from 172.20.0.4:36088 on port 1883.
+1678036670: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036670: New connection from 172.20.0.1:41232 on port 1883.
+1678036670: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036671: New connection from 172.20.0.1:41238 on port 1883.
+1678036671: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036672: New connection from 172.20.0.1:41246 on port 1883.
+1678036672: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036673: New connection from 172.20.0.1:41254 on port 1883.
+1678036673: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036674: New connection from 172.20.0.1:41260 on port 1883.
+1678036674: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036675: New connection from 172.20.0.1:41270 on port 1883.
+1678036675: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036676: New connection from 172.20.0.1:41286 on port 1883.
+1678036676: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036677: New connection from 172.20.0.1:41294 on port 1883.
+1678036677: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036678: New connection from 172.20.0.1:41306 on port 1883.
+1678036678: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036679: New connection from 172.20.0.1:56938 on port 1883.
+1678036679: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036680: New connection from 172.20.0.4:50550 on port 1883.
+1678036680: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036680: New connection from 172.20.0.1:56942 on port 1883.
+1678036680: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036681: New connection from 172.20.0.1:56956 on port 1883.
+1678036681: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036682: New connection from 172.20.0.1:56972 on port 1883.
+1678036682: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036683: New connection from 172.20.0.1:56976 on port 1883.
+1678036683: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036684: New connection from 172.20.0.1:56988 on port 1883.
+1678036684: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036685: New connection from 172.20.0.1:56990 on port 1883.
+1678036685: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036686: New connection from 172.20.0.1:56994 on port 1883.
+1678036686: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036687: New connection from 172.20.0.1:57006 on port 1883.
+1678036687: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036688: New connection from 172.20.0.1:57014 on port 1883.
+1678036688: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036689: New connection from 172.20.0.1:60150 on port 1883.
+1678036689: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036690: New connection from 172.20.0.4:50092 on port 1883.
+1678036690: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036690: New connection from 172.20.0.1:60164 on port 1883.
+1678036690: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036691: New connection from 172.20.0.1:60170 on port 1883.
+1678036691: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036692: New connection from 172.20.0.1:60172 on port 1883.
+1678036692: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036693: New connection from 172.20.0.1:60180 on port 1883.
+1678036693: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036694: New connection from 172.20.0.1:60196 on port 1883.
+1678036694: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036695: New connection from 172.20.0.1:60210 on port 1883.
+1678036695: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036696: New connection from 172.20.0.1:60222 on port 1883.
+1678036696: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036697: New connection from 172.20.0.1:60230 on port 1883.
+1678036697: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036698: New connection from 172.20.0.1:60232 on port 1883.
+1678036698: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036699: New connection from 172.20.0.1:54208 on port 1883.
+1678036699: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036700: New connection from 172.20.0.4:57868 on port 1883.
+1678036700: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036700: New connection from 172.20.0.1:54218 on port 1883.
+1678036700: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036701: New connection from 172.20.0.1:54224 on port 1883.
+1678036701: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036702: New connection from 172.20.0.1:54228 on port 1883.
+1678036702: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036703: New connection from 172.20.0.1:54236 on port 1883.
+1678036703: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036704: New connection from 172.20.0.1:54252 on port 1883.
+1678036704: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036705: New connection from 172.20.0.1:54258 on port 1883.
+1678036705: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036706: New connection from 172.20.0.1:54260 on port 1883.
+1678036706: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036707: New connection from 172.20.0.1:54272 on port 1883.
+1678036707: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036708: New connection from 172.20.0.1:54284 on port 1883.
+1678036708: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036709: New connection from 172.20.0.1:33456 on port 1883.
+1678036709: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036710: New connection from 172.20.0.4:41216 on port 1883.
+1678036710: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036710: New connection from 172.20.0.1:33462 on port 1883.
+1678036710: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036711: New connection from 172.20.0.1:33476 on port 1883.
+1678036711: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036712: New connection from 172.20.0.1:33486 on port 1883.
+1678036712: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036713: New connection from 172.20.0.1:33492 on port 1883.
+1678036713: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036714: New connection from 172.20.0.1:33506 on port 1883.
+1678036714: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036715: New connection from 172.20.0.1:33510 on port 1883.
+1678036715: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036716: New connection from 172.20.0.1:33518 on port 1883.
+1678036716: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036717: New connection from 172.20.0.1:33526 on port 1883.
+1678036717: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036718: New connection from 172.20.0.1:33528 on port 1883.
+1678036718: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036719: New connection from 172.20.0.1:43512 on port 1883.
+1678036719: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036720: New connection from 172.20.0.4:41600 on port 1883.
+1678036720: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036720: New connection from 172.20.0.1:43526 on port 1883.
+1678036720: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036721: New connection from 172.20.0.1:43536 on port 1883.
+1678036721: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036722: New connection from 172.20.0.1:43546 on port 1883.
+1678036722: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036723: New connection from 172.20.0.1:43554 on port 1883.
+1678036723: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036724: New connection from 172.20.0.1:43560 on port 1883.
+1678036724: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036725: New connection from 172.20.0.1:43568 on port 1883.
+1678036725: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036726: New connection from 172.20.0.1:43572 on port 1883.
+1678036726: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036727: New connection from 172.20.0.1:43582 on port 1883.
+1678036727: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036728: New connection from 172.20.0.1:43598 on port 1883.
+1678036728: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036729: New connection from 172.20.0.1:50738 on port 1883.
+1678036729: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036730: New connection from 172.20.0.4:40732 on port 1883.
+1678036730: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036730: New connection from 172.20.0.1:50746 on port 1883.
+1678036730: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036731: New connection from 172.20.0.1:50752 on port 1883.
+1678036731: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036732: New connection from 172.20.0.1:50764 on port 1883.
+1678036732: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036733: New connection from 172.20.0.1:50774 on port 1883.
+1678036733: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036734: New connection from 172.20.0.1:50778 on port 1883.
+1678036734: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036735: New connection from 172.20.0.1:50788 on port 1883.
+1678036735: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036736: New connection from 172.20.0.1:50798 on port 1883.
+1678036736: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036737: New connection from 172.20.0.1:50802 on port 1883.
+1678036737: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036738: New connection from 172.20.0.1:38164 on port 1883.
+1678036738: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036739: New connection from 172.20.0.1:38174 on port 1883.
+1678036739: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036740: New connection from 172.20.0.4:53668 on port 1883.
+1678036740: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036740: New connection from 172.20.0.1:38186 on port 1883.
+1678036740: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036741: New connection from 172.20.0.1:38190 on port 1883.
+1678036741: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036742: New connection from 172.20.0.1:38202 on port 1883.
+1678036742: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036743: New connection from 172.20.0.1:38210 on port 1883.
+1678036743: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036744: New connection from 172.20.0.1:38212 on port 1883.
+1678036744: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036745: New connection from 172.20.0.1:38218 on port 1883.
+1678036745: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036746: New connection from 172.20.0.1:38222 on port 1883.
+1678036746: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036747: New connection from 172.20.0.1:38224 on port 1883.
+1678036747: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036748: New connection from 172.20.0.1:38914 on port 1883.
+1678036748: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036749: New connection from 172.20.0.1:38926 on port 1883.
+1678036749: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036750: New connection from 172.20.0.4:54848 on port 1883.
+1678036750: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036750: New connection from 172.20.0.1:38938 on port 1883.
+1678036750: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036751: New connection from 172.20.0.1:38942 on port 1883.
+1678036751: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036752: New connection from 172.20.0.1:38956 on port 1883.
+1678036752: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036753: New connection from 172.20.0.1:38960 on port 1883.
+1678036753: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036754: New connection from 172.20.0.1:38962 on port 1883.
+1678036754: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036755: New connection from 172.20.0.1:38966 on port 1883.
+1678036755: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036756: New connection from 172.20.0.1:38976 on port 1883.
+1678036756: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036757: New connection from 172.20.0.1:38986 on port 1883.
+1678036757: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036758: New connection from 172.20.0.1:42896 on port 1883.
+1678036758: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036759: New connection from 172.20.0.1:42898 on port 1883.
+1678036759: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036760: New connection from 172.20.0.4:48460 on port 1883.
+1678036760: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036760: New connection from 172.20.0.1:42910 on port 1883.
+1678036760: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036761: New connection from 172.20.0.1:42922 on port 1883.
+1678036761: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036762: New connection from 172.20.0.1:42930 on port 1883.
+1678036762: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036763: New connection from 172.20.0.1:42940 on port 1883.
+1678036763: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036764: New connection from 172.20.0.1:42946 on port 1883.
+1678036764: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036765: New connection from 172.20.0.1:42952 on port 1883.
+1678036765: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036766: New connection from 172.20.0.1:42968 on port 1883.
+1678036766: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036767: New connection from 172.20.0.1:42974 on port 1883.
+1678036767: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036768: New connection from 172.20.0.1:51594 on port 1883.
+1678036768: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036769: New connection from 172.20.0.1:51610 on port 1883.
+1678036769: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036770: New connection from 172.20.0.4:59026 on port 1883.
+1678036770: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036770: New connection from 172.20.0.1:51618 on port 1883.
+1678036770: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036771: New connection from 172.20.0.1:51622 on port 1883.
+1678036771: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036772: New connection from 172.20.0.1:51632 on port 1883.
+1678036772: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036773: New connection from 172.20.0.1:51642 on port 1883.
+1678036773: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036774: New connection from 172.20.0.1:51646 on port 1883.
+1678036774: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036775: New connection from 172.20.0.1:51658 on port 1883.
+1678036775: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036776: New connection from 172.20.0.1:51670 on port 1883.
+1678036776: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036777: New connection from 172.20.0.1:51686 on port 1883.
+1678036777: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036778: New connection from 172.20.0.1:57440 on port 1883.
+1678036778: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036779: New connection from 172.20.0.1:57456 on port 1883.
+1678036779: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036780: New connection from 172.20.0.4:43188 on port 1883.
+1678036780: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036780: New connection from 172.20.0.1:57470 on port 1883.
+1678036780: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036781: New connection from 172.20.0.1:57480 on port 1883.
+1678036781: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036782: New connection from 172.20.0.1:57484 on port 1883.
+1678036782: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036783: New connection from 172.20.0.1:57492 on port 1883.
+1678036783: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036784: New connection from 172.20.0.1:57504 on port 1883.
+1678036784: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036785: New connection from 172.20.0.1:57518 on port 1883.
+1678036785: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036786: New connection from 172.20.0.1:57520 on port 1883.
+1678036786: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036787: New connection from 172.20.0.1:57524 on port 1883.
+1678036787: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036788: New connection from 172.20.0.1:50558 on port 1883.
+1678036788: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036789: New connection from 172.20.0.1:50566 on port 1883.
+1678036789: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036790: New connection from 172.20.0.4:54950 on port 1883.
+1678036790: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036790: New connection from 172.20.0.1:50580 on port 1883.
+1678036790: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036791: New connection from 172.20.0.1:50594 on port 1883.
+1678036791: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036792: New connection from 172.20.0.1:50598 on port 1883.
+1678036792: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036793: New connection from 172.20.0.1:50608 on port 1883.
+1678036793: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036794: New connection from 172.20.0.1:50612 on port 1883.
+1678036794: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036795: New connection from 172.20.0.1:50628 on port 1883.
+1678036795: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036796: New connection from 172.20.0.1:50642 on port 1883.
+1678036796: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036797: New connection from 172.20.0.1:50644 on port 1883.
+1678036797: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036798: New connection from 172.20.0.1:53114 on port 1883.
+1678036798: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036799: New connection from 172.20.0.1:53124 on port 1883.
+1678036799: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036800: New connection from 172.20.0.4:40710 on port 1883.
+1678036800: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036800: New connection from 172.20.0.1:53130 on port 1883.
+1678036800: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036801: New connection from 172.20.0.1:53138 on port 1883.
+1678036801: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036802: New connection from 172.20.0.1:53150 on port 1883.
+1678036802: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036803: New connection from 172.20.0.1:53166 on port 1883.
+1678036803: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036804: New connection from 172.20.0.1:53174 on port 1883.
+1678036804: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036805: New connection from 172.20.0.1:53178 on port 1883.
+1678036805: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036806: New connection from 172.20.0.1:53194 on port 1883.
+1678036806: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036807: New connection from 172.20.0.1:53198 on port 1883.
+1678036807: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036808: New connection from 172.20.0.1:58470 on port 1883.
+1678036808: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036809: New connection from 172.20.0.1:58472 on port 1883.
+1678036809: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036810: New connection from 172.20.0.4:55308 on port 1883.
+1678036810: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036810: New connection from 172.20.0.1:58478 on port 1883.
+1678036810: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036811: New connection from 172.20.0.1:58492 on port 1883.
+1678036811: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036812: New connection from 172.20.0.1:58496 on port 1883.
+1678036812: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036813: New connection from 172.20.0.1:58512 on port 1883.
+1678036813: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036814: New connection from 172.20.0.1:58528 on port 1883.
+1678036814: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036815: New connection from 172.20.0.1:58540 on port 1883.
+1678036815: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036816: New connection from 172.20.0.1:58556 on port 1883.
+1678036816: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036817: New connection from 172.20.0.1:58566 on port 1883.
+1678036817: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036818: New connection from 172.20.0.1:33120 on port 1883.
+1678036818: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036819: New connection from 172.20.0.1:33122 on port 1883.
+1678036819: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036820: New connection from 172.20.0.4:39578 on port 1883.
+1678036820: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036820: New connection from 172.20.0.1:33124 on port 1883.
+1678036820: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036821: New connection from 172.20.0.1:33140 on port 1883.
+1678036821: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036822: New connection from 172.20.0.1:33152 on port 1883.
+1678036822: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036823: New connection from 172.20.0.1:33156 on port 1883.
+1678036823: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036824: New connection from 172.20.0.1:33172 on port 1883.
+1678036824: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036825: New connection from 172.20.0.1:33180 on port 1883.
+1678036825: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036826: New connection from 172.20.0.1:33182 on port 1883.
+1678036826: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036827: New connection from 172.20.0.1:33184 on port 1883.
+1678036827: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036828: New connection from 172.20.0.1:60420 on port 1883.
+1678036828: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036829: New connection from 172.20.0.1:60434 on port 1883.
+1678036829: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036830: New connection from 172.20.0.4:34490 on port 1883.
+1678036830: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036830: New connection from 172.20.0.1:60440 on port 1883.
+1678036830: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036831: New connection from 172.20.0.1:60454 on port 1883.
+1678036831: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036832: New connection from 172.20.0.1:60470 on port 1883.
+1678036832: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036833: New connection from 172.20.0.1:60480 on port 1883.
+1678036833: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036834: New connection from 172.20.0.1:60488 on port 1883.
+1678036834: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036835: New connection from 172.20.0.1:60490 on port 1883.
+1678036835: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036836: New connection from 172.20.0.1:60500 on port 1883.
+1678036836: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036837: New connection from 172.20.0.1:60504 on port 1883.
+1678036837: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036838: New connection from 172.20.0.1:53360 on port 1883.
+1678036838: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036839: New connection from 172.20.0.1:53362 on port 1883.
+1678036839: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036840: New connection from 172.20.0.4:56078 on port 1883.
+1678036840: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036840: New connection from 172.20.0.1:53368 on port 1883.
+1678036840: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036841: New connection from 172.20.0.1:53372 on port 1883.
+1678036841: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036842: New connection from 172.20.0.1:53386 on port 1883.
+1678036842: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036843: New connection from 172.20.0.1:53388 on port 1883.
+1678036843: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036844: New connection from 172.20.0.1:53400 on port 1883.
+1678036844: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036845: New connection from 172.20.0.1:53416 on port 1883.
+1678036845: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036846: New connection from 172.20.0.1:53432 on port 1883.
+1678036846: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036847: New connection from 172.20.0.1:53446 on port 1883.
+1678036847: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036848: New connection from 172.20.0.1:48774 on port 1883.
+1678036848: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036849: New connection from 172.20.0.1:48788 on port 1883.
+1678036849: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036850: New connection from 172.20.0.4:48072 on port 1883.
+1678036850: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036850: New connection from 172.20.0.1:48794 on port 1883.
+1678036850: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036851: New connection from 172.20.0.1:48808 on port 1883.
+1678036851: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036852: New connection from 172.20.0.1:48820 on port 1883.
+1678036852: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036853: New connection from 172.20.0.1:48834 on port 1883.
+1678036853: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036854: New connection from 172.20.0.1:48840 on port 1883.
+1678036854: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036855: New connection from 172.20.0.1:48856 on port 1883.
+1678036855: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036856: New connection from 172.20.0.1:48858 on port 1883.
+1678036856: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036857: New connection from 172.20.0.1:48864 on port 1883.
+1678036857: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036858: New connection from 172.20.0.1:43964 on port 1883.
+1678036858: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036859: New connection from 172.20.0.1:43980 on port 1883.
+1678036859: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036860: New connection from 172.20.0.4:58276 on port 1883.
+1678036860: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036860: New connection from 172.20.0.1:43984 on port 1883.
+1678036860: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036861: New connection from 172.20.0.1:44000 on port 1883.
+1678036861: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036862: New connection from 172.20.0.1:44004 on port 1883.
+1678036862: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036863: New connection from 172.20.0.1:44010 on port 1883.
+1678036863: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036864: New connection from 172.20.0.1:44016 on port 1883.
+1678036864: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036865: New connection from 172.20.0.1:44032 on port 1883.
+1678036865: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036866: New connection from 172.20.0.1:44040 on port 1883.
+1678036866: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036867: New connection from 172.20.0.1:44054 on port 1883.
+1678036867: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036868: New connection from 172.20.0.1:40126 on port 1883.
+1678036868: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036869: New connection from 172.20.0.1:40138 on port 1883.
+1678036869: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036870: New connection from 172.20.0.4:42686 on port 1883.
+1678036870: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036870: New connection from 172.20.0.1:40148 on port 1883.
+1678036870: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036871: New connection from 172.20.0.1:40160 on port 1883.
+1678036871: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036872: New connection from 172.20.0.1:40162 on port 1883.
+1678036872: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036873: New connection from 172.20.0.1:40172 on port 1883.
+1678036873: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036874: New connection from 172.20.0.1:40188 on port 1883.
+1678036874: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036875: New connection from 172.20.0.1:40198 on port 1883.
+1678036875: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036876: New connection from 172.20.0.1:40206 on port 1883.
+1678036876: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036877: New connection from 172.20.0.1:40210 on port 1883.
+1678036877: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036878: New connection from 172.20.0.1:51204 on port 1883.
+1678036878: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036879: New connection from 172.20.0.1:51214 on port 1883.
+1678036879: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036880: New connection from 172.20.0.4:37270 on port 1883.
+1678036880: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036880: New connection from 172.20.0.1:51228 on port 1883.
+1678036880: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036881: New connection from 172.20.0.1:51244 on port 1883.
+1678036881: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036882: New connection from 172.20.0.1:51258 on port 1883.
+1678036882: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036883: New connection from 172.20.0.1:51266 on port 1883.
+1678036883: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036884: New connection from 172.20.0.1:51274 on port 1883.
+1678036884: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036885: New connection from 172.20.0.1:51284 on port 1883.
+1678036885: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036886: New connection from 172.20.0.1:51288 on port 1883.
+1678036886: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036887: New connection from 172.20.0.1:51290 on port 1883.
+1678036887: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036888: New connection from 172.20.0.1:45588 on port 1883.
+1678036888: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036889: New connection from 172.20.0.1:45598 on port 1883.
+1678036889: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036890: New connection from 172.20.0.4:52810 on port 1883.
+1678036890: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036891: New connection from 172.20.0.1:45608 on port 1883.
+1678036891: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036892: New connection from 172.20.0.1:45618 on port 1883.
+1678036892: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036893: New connection from 172.20.0.1:45634 on port 1883.
+1678036893: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036894: New connection from 172.20.0.1:45644 on port 1883.
+1678036894: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036895: New connection from 172.20.0.1:45648 on port 1883.
+1678036895: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036896: New connection from 172.20.0.1:45656 on port 1883.
+1678036896: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036897: New connection from 172.20.0.1:45660 on port 1883.
+1678036897: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036898: New connection from 172.20.0.1:45664 on port 1883.
+1678036898: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036899: New connection from 172.20.0.1:54472 on port 1883.
+1678036899: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036900: New connection from 172.20.0.4:56310 on port 1883.
+1678036900: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036900: New connection from 172.20.0.1:54488 on port 1883.
+1678036900: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036901: New connection from 172.20.0.1:54504 on port 1883.
+1678036901: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036902: New connection from 172.20.0.1:54508 on port 1883.
+1678036902: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036903: New connection from 172.20.0.1:54514 on port 1883.
+1678036903: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036904: New connection from 172.20.0.1:54526 on port 1883.
+1678036904: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036905: New connection from 172.20.0.1:54538 on port 1883.
+1678036905: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036906: New connection from 172.20.0.1:54554 on port 1883.
+1678036906: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036907: New connection from 172.20.0.1:54556 on port 1883.
+1678036907: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036908: New connection from 172.20.0.1:54560 on port 1883.
+1678036908: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036909: New connection from 172.20.0.1:44486 on port 1883.
+1678036909: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036910: New connection from 172.20.0.4:47876 on port 1883.
+1678036910: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036910: New connection from 172.20.0.1:44492 on port 1883.
+1678036910: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036911: New connection from 172.20.0.1:44502 on port 1883.
+1678036911: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036912: New connection from 172.20.0.1:44518 on port 1883.
+1678036912: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036913: New connection from 172.20.0.1:44534 on port 1883.
+1678036913: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036914: New connection from 172.20.0.1:44542 on port 1883.
+1678036914: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036915: New connection from 172.20.0.1:44556 on port 1883.
+1678036915: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036916: New connection from 172.20.0.1:44560 on port 1883.
+1678036916: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036917: New connection from 172.20.0.1:44564 on port 1883.
+1678036917: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036918: New connection from 172.20.0.1:44574 on port 1883.
+1678036918: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036919: New connection from 172.20.0.1:51074 on port 1883.
+1678036919: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036920: New connection from 172.20.0.4:40774 on port 1883.
+1678036920: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036920: New connection from 172.20.0.1:51078 on port 1883.
+1678036920: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036921: New connection from 172.20.0.1:51088 on port 1883.
+1678036921: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036922: New connection from 172.20.0.1:51092 on port 1883.
+1678036922: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036923: New connection from 172.20.0.1:51104 on port 1883.
+1678036923: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036924: New connection from 172.20.0.1:51108 on port 1883.
+1678036924: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036925: New connection from 172.20.0.1:51120 on port 1883.
+1678036925: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036926: New connection from 172.20.0.1:51130 on port 1883.
+1678036926: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036927: New connection from 172.20.0.1:51134 on port 1883.
+1678036927: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036928: New connection from 172.20.0.1:51146 on port 1883.
+1678036928: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036929: New connection from 172.20.0.1:39744 on port 1883.
+1678036929: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036930: New connection from 172.20.0.4:48490 on port 1883.
+1678036930: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036930: New connection from 172.20.0.1:39746 on port 1883.
+1678036930: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036931: New connection from 172.20.0.1:39752 on port 1883.
+1678036931: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036932: New connection from 172.20.0.1:39756 on port 1883.
+1678036932: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036933: New connection from 172.20.0.1:39770 on port 1883.
+1678036933: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036934: New connection from 172.20.0.1:39782 on port 1883.
+1678036934: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036935: New connection from 172.20.0.1:39786 on port 1883.
+1678036935: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036936: New connection from 172.20.0.1:39790 on port 1883.
+1678036936: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036937: New connection from 172.20.0.1:39794 on port 1883.
+1678036937: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036938: New connection from 172.20.0.1:39808 on port 1883.
+1678036938: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036939: New connection from 172.20.0.1:33168 on port 1883.
+1678036939: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036940: New connection from 172.20.0.4:45042 on port 1883.
+1678036940: Client Telegraf-Consumer-bSxiK disconnected, not authorised.
+1678036940: New connection from 172.20.0.1:33172 on port 1883.
+1678036940: Client mqttjs_19100eb0 disconnected, not authorised.
+1678036941: New connection from 172.20.0.1:33186 on port 1883.
+1678036941: Client mqttjs_19100eb0 disconnected, not authorised.
