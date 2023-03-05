@@ -1,1 +1,1 @@
-export {}
+export { DarkTheme } from './Dark'
