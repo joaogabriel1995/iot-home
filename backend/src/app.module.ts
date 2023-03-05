@@ -5,6 +5,7 @@ import { PubSubModule } from './modules/PubSub/pubsub.module';
 import { ConfigModule } from '@nestjs/config';
 import { ActuatorModules } from './modules/Actuator/actuator.module';
 import { SensorModules } from './modules/Sensor/sensor.module';
+import { StorageModules } from './modules/Storage/storage.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { SensorModules } from './modules/Sensor/sensor.module';
     PubSubModule,
     ActuatorModules,
     SensorModules,
+    StorageModules,
   ],
   controllers: [],
   providers: [],
