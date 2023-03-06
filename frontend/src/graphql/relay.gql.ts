@@ -1,13 +1,19 @@
 import { gql } from '@apollo/client'
-import { relayType } from '../shared/dto/relay.dto'
-export type Dht11getData = { getTempAndHumidity?: relayType }
 
-export const dht11Gql = {
-  getData: gql`
-    subscription Subscription {
-      getTempAndHumidity {
-        Humidity
-        Temperature
+export const relayGql = {
+  getRelayLastData: gql`
+    query GetLastData {
+      getLastData {
+        _value
+      }
+    }
+  `,
+  switchStatusRelay: gql`
+    mutation Mutation($onOff: Int!) {
+      switchStatus(OnOff: $onOff) {
+        created_at
+        status_relay
+        ukey
       }
     }
   `
