@@ -6,6 +6,10 @@ import { CreateOnerelayArgs } from 'src/graphql/relay/create-onerelay.args';
 import { relay } from 'src/graphql/relay/relay.model';
 import { PrismaService } from 'nestjs-prisma';
 import { Prisma } from '@prisma/client';
+import { client } from 'src/modules/PubSub/services/pubsub.service';
+import { InfluxDbService } from 'src/modules/Storage/services/influxdb.service';
+import { fluxRelayLastData } from '../Flux/actuator.flux';
+import { influxModel } from 'src/modules/Storage/dto/influx.dto';
 
 @Resolver((of) => RelayDto)
 export class RelayActuatorResolver {
@@ -13,6 +17,7 @@ export class RelayActuatorResolver {
     @Inject('MQTT_PUB_SUB')
     private mqttpubSub: MQTTPubSub,
     private prismaService: PrismaService,
+    private influxDbService: InfluxDbService,
   ) {}
 
   @Query((returns) => String)
@@ -29,15 +34,17 @@ export class RelayActuatorResolver {
   @Mutation((returns) => relay)
   async switchStatus(@Args() args?: RelayArgs) {
     this.mqttpubSub.publish('ACTUADOR/ESP32/RELAY/01', args.OnOff);
+    client.then((mqtt) => {
+      mqtt.publish(
+        'ACTUADOR/INFLUX/RELAY/01',
+        `relay,relay_ukey=1,ssid=quarto OnOff=${args.OnOff}`,
+      );
+    });
+
     return this.createOneDataRelay({ data: { status_relay: 1 } });
   }
-
-  // @Subscription((returns) => RelayActuator, {
-  //   resolve(this: RelayActuator, value) {
-  //     return value;
-  //   },
-  // })
-  // getDataMachine() {
-  //   return this.mqttpubSub.asyncIterator('teste/');
-  // }
+  @Query((returns) => [influxModel])
+  async getLastData() {
+    return await this.influxDbService.getLastStatusMachine(fluxRelayLastData());
+  }
 }
