@@ -11,16 +11,21 @@ export async function getStorageModule() {
   return { url, username, password };
 }
 
-const mqttPubSub = getStorageModule().then(({ password, url, username }) => {
+const client = getStorageModule().then(({ password, url, username }) => {
   const client = connect(url, {
     username: username,
     password: password,
     reconnectPeriod: 1000,
   });
+  return client;
+});
+
+const mqttPubSub = client.then((client) => {
   const mqttPubSub = new MQTTPubSub({
     client,
   });
   return mqttPubSub;
 });
+
 const pubSub = new PubSub();
-export { mqttPubSub, pubSub };
+export { mqttPubSub, pubSub, client };
