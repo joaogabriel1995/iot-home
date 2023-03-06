@@ -3,7 +3,6 @@ import { Box, Paper, Typography } from '@mui/material'
 import { height } from '@mui/system'
 import React, { useEffect } from 'react'
 import { pageGql } from '../../../graphql/Page.gql'
-import { dht11Gql } from '../../../graphql/relay.gql'
 
 interface PropsCards {
   children?: React.ReactNode
