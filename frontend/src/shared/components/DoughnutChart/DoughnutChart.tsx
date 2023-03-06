@@ -11,7 +11,7 @@ export const Donuts = ({ humidity, stringValue }: DonutsProps) => {
   ChartJS.register(ArcElement, Tooltip, Legend)
   const calc = humidity ? 100 - humidity : 0
   const data = {
-    labels: ['umidade'],
+    labels: [''],
     options: {
       responsive: true
     },
