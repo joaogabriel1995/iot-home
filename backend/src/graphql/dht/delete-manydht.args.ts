@@ -5,8 +5,7 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class DeleteManydhtArgs {
-
-    @Field(() => dhtWhereInput, {nullable:true})
-    @Type(() => dhtWhereInput)
-    where?: dhtWhereInput;
+  @Field(() => dhtWhereInput, { nullable: true })
+  @Type(() => dhtWhereInput)
+  where?: dhtWhereInput;
 }

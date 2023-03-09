@@ -6,16 +6,15 @@ import { NullableDateTimeFieldUpdateOperationsInput } from '../prisma/nullable-d
 
 @InputType()
 export class dhtUncheckedUpdateInput {
+  @Field(() => IntFieldUpdateOperationsInput, { nullable: true })
+  ukey?: IntFieldUpdateOperationsInput;
 
-    @Field(() => IntFieldUpdateOperationsInput, {nullable:true})
-    ukey?: IntFieldUpdateOperationsInput;
+  @Field(() => FloatFieldUpdateOperationsInput, { nullable: true })
+  temperature?: FloatFieldUpdateOperationsInput;
 
-    @Field(() => FloatFieldUpdateOperationsInput, {nullable:true})
-    temperature?: FloatFieldUpdateOperationsInput;
+  @Field(() => FloatFieldUpdateOperationsInput, { nullable: true })
+  humidity?: FloatFieldUpdateOperationsInput;
 
-    @Field(() => FloatFieldUpdateOperationsInput, {nullable:true})
-    humidity?: FloatFieldUpdateOperationsInput;
-
-    @Field(() => NullableDateTimeFieldUpdateOperationsInput, {nullable:true})
-    created_at?: NullableDateTimeFieldUpdateOperationsInput;
+  @Field(() => NullableDateTimeFieldUpdateOperationsInput, { nullable: true })
+  created_at?: NullableDateTimeFieldUpdateOperationsInput;
 }

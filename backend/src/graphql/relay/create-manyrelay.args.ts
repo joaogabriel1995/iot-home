@@ -5,11 +5,10 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class CreateManyrelayArgs {
+  @Field(() => [relayCreateManyInput], { nullable: false })
+  @Type(() => relayCreateManyInput)
+  data!: Array<relayCreateManyInput>;
 
-    @Field(() => [relayCreateManyInput], {nullable:false})
-    @Type(() => relayCreateManyInput)
-    data!: Array<relayCreateManyInput>;
-
-    @Field(() => Boolean, {nullable:true})
-    skipDuplicates?: boolean;
+  @Field(() => Boolean, { nullable: true })
+  skipDuplicates?: boolean;
 }

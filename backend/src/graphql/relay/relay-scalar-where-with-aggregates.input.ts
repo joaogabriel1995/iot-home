@@ -5,22 +5,21 @@ import { DateTimeNullableWithAggregatesFilter } from '../prisma/date-time-nullab
 
 @InputType()
 export class relayScalarWhereWithAggregatesInput {
+  @Field(() => [relayScalarWhereWithAggregatesInput], { nullable: true })
+  AND?: Array<relayScalarWhereWithAggregatesInput>;
 
-    @Field(() => [relayScalarWhereWithAggregatesInput], {nullable:true})
-    AND?: Array<relayScalarWhereWithAggregatesInput>;
+  @Field(() => [relayScalarWhereWithAggregatesInput], { nullable: true })
+  OR?: Array<relayScalarWhereWithAggregatesInput>;
 
-    @Field(() => [relayScalarWhereWithAggregatesInput], {nullable:true})
-    OR?: Array<relayScalarWhereWithAggregatesInput>;
+  @Field(() => [relayScalarWhereWithAggregatesInput], { nullable: true })
+  NOT?: Array<relayScalarWhereWithAggregatesInput>;
 
-    @Field(() => [relayScalarWhereWithAggregatesInput], {nullable:true})
-    NOT?: Array<relayScalarWhereWithAggregatesInput>;
+  @Field(() => IntWithAggregatesFilter, { nullable: true })
+  ukey?: IntWithAggregatesFilter;
 
-    @Field(() => IntWithAggregatesFilter, {nullable:true})
-    ukey?: IntWithAggregatesFilter;
+  @Field(() => IntWithAggregatesFilter, { nullable: true })
+  status_relay?: IntWithAggregatesFilter;
 
-    @Field(() => IntWithAggregatesFilter, {nullable:true})
-    status_relay?: IntWithAggregatesFilter;
-
-    @Field(() => DateTimeNullableWithAggregatesFilter, {nullable:true})
-    created_at?: DateTimeNullableWithAggregatesFilter;
+  @Field(() => DateTimeNullableWithAggregatesFilter, { nullable: true })
+  created_at?: DateTimeNullableWithAggregatesFilter;
 }

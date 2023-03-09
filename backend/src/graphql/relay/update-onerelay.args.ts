@@ -6,12 +6,11 @@ import { relayWhereUniqueInput } from './relay-where-unique.input';
 
 @ArgsType()
 export class UpdateOnerelayArgs {
+  @Field(() => relayUpdateInput, { nullable: false })
+  @Type(() => relayUpdateInput)
+  data!: relayUpdateInput;
 
-    @Field(() => relayUpdateInput, {nullable:false})
-    @Type(() => relayUpdateInput)
-    data!: relayUpdateInput;
-
-    @Field(() => relayWhereUniqueInput, {nullable:false})
-    @Type(() => relayWhereUniqueInput)
-    where!: relayWhereUniqueInput;
+  @Field(() => relayWhereUniqueInput, { nullable: false })
+  @Type(() => relayWhereUniqueInput)
+  where!: relayWhereUniqueInput;
 }

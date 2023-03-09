@@ -9,23 +9,22 @@ import { Int } from '@nestjs/graphql';
 
 @ArgsType()
 export class relayGroupByArgs {
+  @Field(() => relayWhereInput, { nullable: true })
+  @Type(() => relayWhereInput)
+  where?: relayWhereInput;
 
-    @Field(() => relayWhereInput, {nullable:true})
-    @Type(() => relayWhereInput)
-    where?: relayWhereInput;
+  @Field(() => [relayOrderByWithAggregationInput], { nullable: true })
+  orderBy?: Array<relayOrderByWithAggregationInput>;
 
-    @Field(() => [relayOrderByWithAggregationInput], {nullable:true})
-    orderBy?: Array<relayOrderByWithAggregationInput>;
+  @Field(() => [RelayScalarFieldEnum], { nullable: false })
+  by!: Array<keyof typeof RelayScalarFieldEnum>;
 
-    @Field(() => [RelayScalarFieldEnum], {nullable:false})
-    by!: Array<keyof typeof RelayScalarFieldEnum>;
+  @Field(() => relayScalarWhereWithAggregatesInput, { nullable: true })
+  having?: relayScalarWhereWithAggregatesInput;
 
-    @Field(() => relayScalarWhereWithAggregatesInput, {nullable:true})
-    having?: relayScalarWhereWithAggregatesInput;
+  @Field(() => Int, { nullable: true })
+  take?: number;
 
-    @Field(() => Int, {nullable:true})
-    take?: number;
-
-    @Field(() => Int, {nullable:true})
-    skip?: number;
+  @Field(() => Int, { nullable: true })
+  skip?: number;
 }

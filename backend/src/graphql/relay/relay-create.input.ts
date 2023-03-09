@@ -4,10 +4,9 @@ import { Int } from '@nestjs/graphql';
 
 @InputType()
 export class relayCreateInput {
+  @Field(() => Int, { nullable: false })
+  status_relay!: number;
 
-    @Field(() => Int, {nullable:false})
-    status_relay!: number;
-
-    @Field(() => Date, {nullable:true})
-    created_at?: Date | string;
+  @Field(() => Date, { nullable: true })
+  created_at?: Date | string;
 }

@@ -4,7 +4,6 @@ import { Int } from '@nestjs/graphql';
 
 @InputType()
 export class dhtWhereUniqueInput {
-
-    @Field(() => Int, {nullable:true})
-    ukey?: number;
+  @Field(() => Int, { nullable: true })
+  ukey?: number;
 }

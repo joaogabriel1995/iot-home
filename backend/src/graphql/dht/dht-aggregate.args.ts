@@ -8,20 +8,19 @@ import { Int } from '@nestjs/graphql';
 
 @ArgsType()
 export class dhtAggregateArgs {
+  @Field(() => dhtWhereInput, { nullable: true })
+  @Type(() => dhtWhereInput)
+  where?: dhtWhereInput;
 
-    @Field(() => dhtWhereInput, {nullable:true})
-    @Type(() => dhtWhereInput)
-    where?: dhtWhereInput;
+  @Field(() => [dhtOrderByWithRelationInput], { nullable: true })
+  orderBy?: Array<dhtOrderByWithRelationInput>;
 
-    @Field(() => [dhtOrderByWithRelationInput], {nullable:true})
-    orderBy?: Array<dhtOrderByWithRelationInput>;
+  @Field(() => dhtWhereUniqueInput, { nullable: true })
+  cursor?: dhtWhereUniqueInput;
 
-    @Field(() => dhtWhereUniqueInput, {nullable:true})
-    cursor?: dhtWhereUniqueInput;
+  @Field(() => Int, { nullable: true })
+  take?: number;
 
-    @Field(() => Int, {nullable:true})
-    take?: number;
-
-    @Field(() => Int, {nullable:true})
-    skip?: number;
+  @Field(() => Int, { nullable: true })
+  skip?: number;
 }

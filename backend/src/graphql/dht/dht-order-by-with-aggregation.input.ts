@@ -9,31 +9,30 @@ import { dhtSumOrderByAggregateInput } from './dht-sum-order-by-aggregate.input'
 
 @InputType()
 export class dhtOrderByWithAggregationInput {
+  @Field(() => SortOrder, { nullable: true })
+  ukey?: keyof typeof SortOrder;
 
-    @Field(() => SortOrder, {nullable:true})
-    ukey?: keyof typeof SortOrder;
+  @Field(() => SortOrder, { nullable: true })
+  temperature?: keyof typeof SortOrder;
 
-    @Field(() => SortOrder, {nullable:true})
-    temperature?: keyof typeof SortOrder;
+  @Field(() => SortOrder, { nullable: true })
+  humidity?: keyof typeof SortOrder;
 
-    @Field(() => SortOrder, {nullable:true})
-    humidity?: keyof typeof SortOrder;
+  @Field(() => SortOrder, { nullable: true })
+  created_at?: keyof typeof SortOrder;
 
-    @Field(() => SortOrder, {nullable:true})
-    created_at?: keyof typeof SortOrder;
+  @Field(() => dhtCountOrderByAggregateInput, { nullable: true })
+  _count?: dhtCountOrderByAggregateInput;
 
-    @Field(() => dhtCountOrderByAggregateInput, {nullable:true})
-    _count?: dhtCountOrderByAggregateInput;
+  @Field(() => dhtAvgOrderByAggregateInput, { nullable: true })
+  _avg?: dhtAvgOrderByAggregateInput;
 
-    @Field(() => dhtAvgOrderByAggregateInput, {nullable:true})
-    _avg?: dhtAvgOrderByAggregateInput;
+  @Field(() => dhtMaxOrderByAggregateInput, { nullable: true })
+  _max?: dhtMaxOrderByAggregateInput;
 
-    @Field(() => dhtMaxOrderByAggregateInput, {nullable:true})
-    _max?: dhtMaxOrderByAggregateInput;
+  @Field(() => dhtMinOrderByAggregateInput, { nullable: true })
+  _min?: dhtMinOrderByAggregateInput;
 
-    @Field(() => dhtMinOrderByAggregateInput, {nullable:true})
-    _min?: dhtMinOrderByAggregateInput;
-
-    @Field(() => dhtSumOrderByAggregateInput, {nullable:true})
-    _sum?: dhtSumOrderByAggregateInput;
+  @Field(() => dhtSumOrderByAggregateInput, { nullable: true })
+  _sum?: dhtSumOrderByAggregateInput;
 }

@@ -5,13 +5,12 @@ import { Float } from '@nestjs/graphql';
 
 @ObjectType()
 export class DhtSumAggregate {
+  @Field(() => Int, { nullable: true })
+  ukey?: number;
 
-    @Field(() => Int, {nullable:true})
-    ukey?: number;
+  @Field(() => Float, { nullable: true })
+  temperature?: number;
 
-    @Field(() => Float, {nullable:true})
-    temperature?: number;
-
-    @Field(() => Float, {nullable:true})
-    humidity?: number;
+  @Field(() => Float, { nullable: true })
+  humidity?: number;
 }

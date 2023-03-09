@@ -4,10 +4,9 @@ import { SortOrder } from '../prisma/sort-order.enum';
 
 @InputType()
 export class relayAvgOrderByAggregateInput {
+  @Field(() => SortOrder, { nullable: true })
+  ukey?: keyof typeof SortOrder;
 
-    @Field(() => SortOrder, {nullable:true})
-    ukey?: keyof typeof SortOrder;
-
-    @Field(() => SortOrder, {nullable:true})
-    status_relay?: keyof typeof SortOrder;
+  @Field(() => SortOrder, { nullable: true })
+  status_relay?: keyof typeof SortOrder;
 }

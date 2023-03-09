@@ -5,11 +5,10 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class CreateManydhtArgs {
+  @Field(() => [dhtCreateManyInput], { nullable: false })
+  @Type(() => dhtCreateManyInput)
+  data!: Array<dhtCreateManyInput>;
 
-    @Field(() => [dhtCreateManyInput], {nullable:false})
-    @Type(() => dhtCreateManyInput)
-    data!: Array<dhtCreateManyInput>;
-
-    @Field(() => Boolean, {nullable:true})
-    skipDuplicates?: boolean;
+  @Field(() => Boolean, { nullable: true })
+  skipDuplicates?: boolean;
 }

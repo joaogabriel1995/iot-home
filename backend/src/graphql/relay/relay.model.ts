@@ -5,13 +5,12 @@ import { Int } from '@nestjs/graphql';
 
 @ObjectType()
 export class relay {
+  @Field(() => ID, { nullable: false })
+  ukey!: number;
 
-    @Field(() => ID, {nullable:false})
-    ukey!: number;
+  @Field(() => Int, { nullable: false })
+  status_relay!: number;
 
-    @Field(() => Int, {nullable:false})
-    status_relay!: number;
-
-    @Field(() => Date, {nullable:true})
-    created_at!: Date | null;
+  @Field(() => Date, { nullable: true })
+  created_at!: Date | null;
 }

@@ -9,23 +9,22 @@ import { Int } from '@nestjs/graphql';
 
 @ArgsType()
 export class dhtGroupByArgs {
+  @Field(() => dhtWhereInput, { nullable: true })
+  @Type(() => dhtWhereInput)
+  where?: dhtWhereInput;
 
-    @Field(() => dhtWhereInput, {nullable:true})
-    @Type(() => dhtWhereInput)
-    where?: dhtWhereInput;
+  @Field(() => [dhtOrderByWithAggregationInput], { nullable: true })
+  orderBy?: Array<dhtOrderByWithAggregationInput>;
 
-    @Field(() => [dhtOrderByWithAggregationInput], {nullable:true})
-    orderBy?: Array<dhtOrderByWithAggregationInput>;
+  @Field(() => [DhtScalarFieldEnum], { nullable: false })
+  by!: Array<keyof typeof DhtScalarFieldEnum>;
 
-    @Field(() => [DhtScalarFieldEnum], {nullable:false})
-    by!: Array<keyof typeof DhtScalarFieldEnum>;
+  @Field(() => dhtScalarWhereWithAggregatesInput, { nullable: true })
+  having?: dhtScalarWhereWithAggregatesInput;
 
-    @Field(() => dhtScalarWhereWithAggregatesInput, {nullable:true})
-    having?: dhtScalarWhereWithAggregatesInput;
+  @Field(() => Int, { nullable: true })
+  take?: number;
 
-    @Field(() => Int, {nullable:true})
-    take?: number;
-
-    @Field(() => Int, {nullable:true})
-    skip?: number;
+  @Field(() => Int, { nullable: true })
+  skip?: number;
 }

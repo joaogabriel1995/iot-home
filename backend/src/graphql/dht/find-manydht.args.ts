@@ -9,23 +9,22 @@ import { DhtScalarFieldEnum } from '../prisma/dht-scalar-field.enum';
 
 @ArgsType()
 export class FindManydhtArgs {
+  @Field(() => dhtWhereInput, { nullable: true })
+  @Type(() => dhtWhereInput)
+  where?: dhtWhereInput;
 
-    @Field(() => dhtWhereInput, {nullable:true})
-    @Type(() => dhtWhereInput)
-    where?: dhtWhereInput;
+  @Field(() => [dhtOrderByWithRelationInput], { nullable: true })
+  orderBy?: Array<dhtOrderByWithRelationInput>;
 
-    @Field(() => [dhtOrderByWithRelationInput], {nullable:true})
-    orderBy?: Array<dhtOrderByWithRelationInput>;
+  @Field(() => dhtWhereUniqueInput, { nullable: true })
+  cursor?: dhtWhereUniqueInput;
 
-    @Field(() => dhtWhereUniqueInput, {nullable:true})
-    cursor?: dhtWhereUniqueInput;
+  @Field(() => Int, { nullable: true })
+  take?: number;
 
-    @Field(() => Int, {nullable:true})
-    take?: number;
+  @Field(() => Int, { nullable: true })
+  skip?: number;
 
-    @Field(() => Int, {nullable:true})
-    skip?: number;
-
-    @Field(() => [DhtScalarFieldEnum], {nullable:true})
-    distinct?: Array<keyof typeof DhtScalarFieldEnum>;
+  @Field(() => [DhtScalarFieldEnum], { nullable: true })
+  distinct?: Array<keyof typeof DhtScalarFieldEnum>;
 }

@@ -10,31 +10,30 @@ import { DhtMaxAggregate } from './dht-max-aggregate.output';
 
 @ObjectType()
 export class DhtGroupBy {
+  @Field(() => Int, { nullable: false })
+  ukey!: number;
 
-    @Field(() => Int, {nullable:false})
-    ukey!: number;
+  @Field(() => Float, { nullable: false })
+  temperature!: number;
 
-    @Field(() => Float, {nullable:false})
-    temperature!: number;
+  @Field(() => Float, { nullable: false })
+  humidity!: number;
 
-    @Field(() => Float, {nullable:false})
-    humidity!: number;
+  @Field(() => Date, { nullable: true })
+  created_at?: Date | string;
 
-    @Field(() => Date, {nullable:true})
-    created_at?: Date | string;
+  @Field(() => DhtCountAggregate, { nullable: true })
+  _count?: DhtCountAggregate;
 
-    @Field(() => DhtCountAggregate, {nullable:true})
-    _count?: DhtCountAggregate;
+  @Field(() => DhtAvgAggregate, { nullable: true })
+  _avg?: DhtAvgAggregate;
 
-    @Field(() => DhtAvgAggregate, {nullable:true})
-    _avg?: DhtAvgAggregate;
+  @Field(() => DhtSumAggregate, { nullable: true })
+  _sum?: DhtSumAggregate;
 
-    @Field(() => DhtSumAggregate, {nullable:true})
-    _sum?: DhtSumAggregate;
+  @Field(() => DhtMinAggregate, { nullable: true })
+  _min?: DhtMinAggregate;
 
-    @Field(() => DhtMinAggregate, {nullable:true})
-    _min?: DhtMinAggregate;
-
-    @Field(() => DhtMaxAggregate, {nullable:true})
-    _max?: DhtMaxAggregate;
+  @Field(() => DhtMaxAggregate, { nullable: true })
+  _max?: DhtMaxAggregate;
 }

@@ -8,20 +8,19 @@ import { Int } from '@nestjs/graphql';
 
 @ArgsType()
 export class relayAggregateArgs {
+  @Field(() => relayWhereInput, { nullable: true })
+  @Type(() => relayWhereInput)
+  where?: relayWhereInput;
 
-    @Field(() => relayWhereInput, {nullable:true})
-    @Type(() => relayWhereInput)
-    where?: relayWhereInput;
+  @Field(() => [relayOrderByWithRelationInput], { nullable: true })
+  orderBy?: Array<relayOrderByWithRelationInput>;
 
-    @Field(() => [relayOrderByWithRelationInput], {nullable:true})
-    orderBy?: Array<relayOrderByWithRelationInput>;
+  @Field(() => relayWhereUniqueInput, { nullable: true })
+  cursor?: relayWhereUniqueInput;
 
-    @Field(() => relayWhereUniqueInput, {nullable:true})
-    cursor?: relayWhereUniqueInput;
+  @Field(() => Int, { nullable: true })
+  take?: number;
 
-    @Field(() => Int, {nullable:true})
-    take?: number;
-
-    @Field(() => Int, {nullable:true})
-    skip?: number;
+  @Field(() => Int, { nullable: true })
+  skip?: number;
 }

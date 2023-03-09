@@ -4,7 +4,6 @@ import { Int } from '@nestjs/graphql';
 
 @InputType()
 export class relayWhereUniqueInput {
-
-    @Field(() => Int, {nullable:true})
-    ukey?: number;
+  @Field(() => Int, { nullable: true })
+  ukey?: number;
 }

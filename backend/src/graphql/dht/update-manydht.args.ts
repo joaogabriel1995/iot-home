@@ -6,12 +6,11 @@ import { dhtWhereInput } from './dht-where.input';
 
 @ArgsType()
 export class UpdateManydhtArgs {
+  @Field(() => dhtUpdateManyMutationInput, { nullable: false })
+  @Type(() => dhtUpdateManyMutationInput)
+  data!: dhtUpdateManyMutationInput;
 
-    @Field(() => dhtUpdateManyMutationInput, {nullable:false})
-    @Type(() => dhtUpdateManyMutationInput)
-    data!: dhtUpdateManyMutationInput;
-
-    @Field(() => dhtWhereInput, {nullable:true})
-    @Type(() => dhtWhereInput)
-    where?: dhtWhereInput;
+  @Field(() => dhtWhereInput, { nullable: true })
+  @Type(() => dhtWhereInput)
+  where?: dhtWhereInput;
 }

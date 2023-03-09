@@ -8,19 +8,18 @@ import { RelayMaxAggregate } from './relay-max-aggregate.output';
 
 @ObjectType()
 export class AggregateRelay {
+  @Field(() => RelayCountAggregate, { nullable: true })
+  _count?: RelayCountAggregate;
 
-    @Field(() => RelayCountAggregate, {nullable:true})
-    _count?: RelayCountAggregate;
+  @Field(() => RelayAvgAggregate, { nullable: true })
+  _avg?: RelayAvgAggregate;
 
-    @Field(() => RelayAvgAggregate, {nullable:true})
-    _avg?: RelayAvgAggregate;
+  @Field(() => RelaySumAggregate, { nullable: true })
+  _sum?: RelaySumAggregate;
 
-    @Field(() => RelaySumAggregate, {nullable:true})
-    _sum?: RelaySumAggregate;
+  @Field(() => RelayMinAggregate, { nullable: true })
+  _min?: RelayMinAggregate;
 
-    @Field(() => RelayMinAggregate, {nullable:true})
-    _min?: RelayMinAggregate;
-
-    @Field(() => RelayMaxAggregate, {nullable:true})
-    _max?: RelayMaxAggregate;
+  @Field(() => RelayMaxAggregate, { nullable: true })
+  _max?: RelayMaxAggregate;
 }
