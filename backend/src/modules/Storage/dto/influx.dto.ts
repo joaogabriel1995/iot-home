@@ -22,8 +22,4 @@ export class influxModel {
   host!: string;
   @Field(() => String)
   topic!: string;
-  @Field(() => String)
-  relay_ukey!: string;
-  @Field(() => String)
-  ssid!: string;
 }
