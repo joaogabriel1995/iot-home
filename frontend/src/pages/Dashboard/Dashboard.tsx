@@ -1,10 +1,26 @@
 import { useMutation, useQuery, useSubscription } from '@apollo/client'
-import { Button, Box, Paper, Typography } from '@mui/material'
+import {
+  Button,
+  Box,
+  Typography,
+  useTheme,
+  IconButton,
+  Card,
+  CardContent,
+  SvgIcon
+} from '@mui/material'
 import Grid from '@mui/material/Grid'
 import { useEffect, useRef, useState } from 'react'
 import { Dht11getData, dht11Gql } from '../../graphql/dht11.gql'
 import { relayGql } from '../../graphql/relay.gql'
 import { CardInfo, Donuts } from '../../shared/components/index'
+import {
+  LightOnIcon,
+  LightOffIcon
+} from '../../shared/components/SvgIcon/svgIcon'
+
+import { NumberDisplay } from '../../shared/components/NumberDisplay/numberdisplay'
+import { LineChart } from '../../shared/components/LineChart/lineChart'
 
 interface getLastData {
   _value: number
@@ -16,6 +32,8 @@ export const Dashboard = () => {
   const [humidity, setHumidity] = useState<number>()
   const [temperature, setTemperature] = useState<string>('')
   const [text, setText] = useState<string>('')
+  const refButton = useRef<HTMLButtonElement>(null)
+
   const [statusRelay, setStatusRelay] = useState<number>()
 
   const {
@@ -29,11 +47,15 @@ export const Dashboard = () => {
   }
 
   const [updateStatusRelay] = useMutation(relayGql.switchStatusRelay)
-
+  const theme = useTheme()
   useEffect(() => {
     // setStatusRelay(lastStatusRelay._value)
     if (lastStatusRelay) {
-      const status = lastStatusRelay.getLastData[0]._value
+      const status = lastStatusRelay.getLastData[0]
+        ? lastStatusRelay.getLastData[0]._value
+        : 0
+      console.log('STATUS', status)
+      refButton.current!.textContent = status === 0 ? 'Ligar' : 'Desligar'
       setStatusRelay(status)
     }
   }, [lastStatusRelay])
@@ -55,10 +77,16 @@ export const Dashboard = () => {
   }, [dht11?.getTempAndHumidity])
 
   const switchStatus = () => {
-    statusRelay === 0 ? setStatusRelay(1) : setStatusRelay(0)
-    updateStatusRelay({ variables: { onOff: statusRelay } }).then(result => {
-      console.log('Sucess')
-    })
+    console.log('Antes', statusRelay)
+    updateStatusRelay({ variables: { onOff: statusRelay === 0 ? 1 : 0 } }).then(
+      result => {
+        refButton.current!.textContent =
+          statusRelay === 0 ? 'DESLIGAR' : 'LIGAR'
+        statusRelay === 0 ? setStatusRelay(1) : setStatusRelay(0)
+      }
+    )
+
+    console.log('Depois', statusRelay)
   }
 
   return (
@@ -85,7 +113,7 @@ export const Dashboard = () => {
                 justifyContent="center"
               >
                 <Typography color={'#fff'} variant="h1" textAlign={'center'}>
-                  {temperature} °C
+                  <NumberDisplay number={temperature} />
                 </Typography>
               </Box>
             </CardInfo>
@@ -93,25 +121,44 @@ export const Dashboard = () => {
           <Grid item xs={4}>
             <CardInfo title={'Relay'}>
               <Box
-                height={'100%'}
+                height={'80%'}
                 display="flex"
                 alignItems="center"
                 justifyContent="center"
                 flexDirection="column"
               >
-                {statusRelay === 0
-                  ? 'IMAGEM DA LAMPADA LIGADA'
-                  : 'IMAGEM DA LAMPADA DESLIGADA'}
+                {statusRelay === 0 ? (
+                  <Box
+                    marginLeft={'50px'}
+                    width="300px"
+                    height="300px"
+                    paddingTop={'16px'}
+                  >
+                    <SvgIcon sx={{ fontSize: 300 }}>
+                      <LightOffIcon></LightOffIcon>
+                    </SvgIcon>
+                  </Box>
+                ) : (
+                  <Box marginLeft={'50px'} width="300px" height="300px">
+                    <SvgIcon sx={{ fontSize: 300 }}>
+                      <LightOnIcon></LightOnIcon>
+                    </SvgIcon>
+                  </Box>
+                )}
                 {
-                  <Button variant="contained" onClick={switchStatus}>
-                    {statusRelay === 0 ? 'Desligar' : 'Ligar'}
-                  </Button>
+                  <Button
+                    variant="contained"
+                    ref={refButton}
+                    onClick={switchStatus}
+                  ></Button>
                 }
               </Box>
             </CardInfo>
           </Grid>
           <Grid item xs={12}>
-            <CardInfo title={'Gráfico'}></CardInfo>
+            <CardInfo title={'Gráfico de Temperatura'}>
+              <LineChart></LineChart>
+            </CardInfo>
           </Grid>
         </Grid>
       </Box>
