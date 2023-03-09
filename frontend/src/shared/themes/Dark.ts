@@ -2,18 +2,21 @@ import { createTheme } from '@mui/material/styles'
 import { typography } from '@mui/system'
 export const DarkTheme = createTheme({
   palette: {
+    background: {
+      default: '#121212',
+      paper: '#1E1E1E'
+    },
     primary: {
-      main: '#fff'
+      main: '#90CAF9',
+      light: '#BBDEFB'
     },
     secondary: {
-      main: '#000'
-    },
-    background: {
-      default: '#292738',
-      paper: '#363447'
+      main: '#CFD8DC',
+      light: '#ECEFF1'
     },
     text: {
-      primary: '#fff'
+      primary: '#FFFFFF',
+      secondary: '#B0BEC5'
     }
   }
 })
