@@ -30,9 +30,7 @@ export class InfluxDbService {
     return id;
   }
 
-  public async getLastStatusMachine(
-    query: string,
-  ): Promise<string[] | undefined> {
+  public async queryRows(query: string): Promise<string[] | undefined> {
     if (this.connection) {
       const idInflux = await this.getIdByName();
       const queryApi = this.connection.getQueryApi(`${idInflux}`);
