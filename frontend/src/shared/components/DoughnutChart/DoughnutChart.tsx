@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, Chart } from 'chart.js'
 import { Doughnut } from 'react-chartjs-2'
+import { Box } from '@mui/material'
 
 interface DonutsProps {
   humidity?: number
@@ -11,15 +12,19 @@ export const Donuts = ({ humidity, stringValue }: DonutsProps) => {
   ChartJS.register(ArcElement, Tooltip, Legend)
   const calc = humidity ? 100 - humidity : 0
   const data = {
-    labels: [''],
     options: {
-      responsive: true
+      responsive: true,
+      plugins: {
+        legend: {
+          display: false
+        }
+      }
     },
     datasets: [
       {
         label: '% Umidade',
         data: [calc, humidity ? humidity : 0],
-        backgroundColor: ['rgba(255, 255, 255, 1)', 'rgba(54, 162, 235, 0.8)'],
+        backgroundColor: ['rgba(245, 245, 245, 1)', 'rgba(100, 181, 246, 1)'],
         borderColor: ['rgba(255, 255, 255, 1)', 'rgba(54, 162, 235, 1)'],
         borderWidth: 1
       }
@@ -42,7 +47,7 @@ export const Donuts = ({ humidity, stringValue }: DonutsProps) => {
       ctx.font = 'bolder 30px sans-serif'
       ctx.textAlign = 'center'
       ctx.textBaseline = 'center'
-      ctx.fillStyle = 'black'
+      ctx.fillStyle = 'white'
       ctx.fillText(
         ref.current,
         chart.getDatasetMeta(0).data[0].x,
@@ -51,5 +56,17 @@ export const Donuts = ({ humidity, stringValue }: DonutsProps) => {
     }
   }
 
-  return <Doughnut data={data} plugins={[textCenter]} />
+  return (
+    <Box
+      sx={{
+        width: '100%',
+        height: '300px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
+      <Doughnut data={data} plugins={[textCenter]} />
+    </Box>
+  )
 }
