@@ -2,8 +2,6 @@ version: '3.3'
 
 networks:
   intnet:
-    name: app
-
 
 
 services:
@@ -15,6 +13,8 @@ services:
       - ./mosquitto/config/:/mosquitto/config
       - ./mosquitto/data/:/mosquitto/data
       - ./mosquitto/log/:/mosquitto/log
+    expose:
+      - 1883
 
     ports:
       - 1883:1883
@@ -56,45 +56,6 @@ services:
       - intnet
     expose:
       - ${ENV_TELEGRAF_UDP_PORT}/udp
-
-  backend: 
-    build: 
-      context: backend
-      dockerfile: Dockerfile
-    environment:
-      API_PORT: ${API_PORT} 
-      HOST_BROKER: ${HOST_BROKER}
-      PORT_BROKER: ${PORT_BROKER}
-      USER_BROKER: ${USER_BROKER}
-      PWD_BROKER: ${PWD_BROKER}
-      PROTOCOL_BROKER: ${PROTOCOL_BROKER}
-      DATABASE_URL: ${DATABASE_URL}
-      ENV_INFLUXDB_URL: ${ENV_INFLUXDB_URL}
-      ENV_INFLUXDB_ORG: ${ENV_INFLUXDB_ORG}
-      ENV_INFLUXDB_BUCKET: ${ENV_INFLUXDB_BUCKET} 
-      ENV_INFLUXDB_TOKEN: ${ENV_INFLUXDB_TOKEN}
-    depends_on:
-      - postgres
-      - mosquitto
-      - influxdb
-    networks:
-      - intnet
-    expose:
-      - ${API_PORT}
-    ports:
-      - 4000:${API_PORT}
-
-  frontend:
-    build: 
-      context: frontend
-      dockerfile: Dockerfile
-    networks:
-      - intnet
-    expose:
-      - 3000
-    ports:
-      - 3000:3000
-    
 
   postgres:
     environment:
