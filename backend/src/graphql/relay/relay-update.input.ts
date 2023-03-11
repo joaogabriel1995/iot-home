@@ -5,9 +5,10 @@ import { NullableDateTimeFieldUpdateOperationsInput } from '../prisma/nullable-d
 
 @InputType()
 export class relayUpdateInput {
-  @Field(() => IntFieldUpdateOperationsInput, { nullable: true })
-  status_relay?: IntFieldUpdateOperationsInput;
 
-  @Field(() => NullableDateTimeFieldUpdateOperationsInput, { nullable: true })
-  created_at?: NullableDateTimeFieldUpdateOperationsInput;
+    @Field(() => IntFieldUpdateOperationsInput, {nullable:true})
+    status_relay?: IntFieldUpdateOperationsInput;
+
+    @Field(() => NullableDateTimeFieldUpdateOperationsInput, {nullable:true})
+    created_at?: NullableDateTimeFieldUpdateOperationsInput;
 }

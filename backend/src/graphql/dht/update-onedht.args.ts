@@ -6,11 +6,12 @@ import { dhtWhereUniqueInput } from './dht-where-unique.input';
 
 @ArgsType()
 export class UpdateOnedhtArgs {
-  @Field(() => dhtUpdateInput, { nullable: false })
-  @Type(() => dhtUpdateInput)
-  data!: dhtUpdateInput;
 
-  @Field(() => dhtWhereUniqueInput, { nullable: false })
-  @Type(() => dhtWhereUniqueInput)
-  where!: dhtWhereUniqueInput;
+    @Field(() => dhtUpdateInput, {nullable:false})
+    @Type(() => dhtUpdateInput)
+    data!: dhtUpdateInput;
+
+    @Field(() => dhtWhereUniqueInput, {nullable:false})
+    @Type(() => dhtWhereUniqueInput)
+    where!: dhtWhereUniqueInput;
 }

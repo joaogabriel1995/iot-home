@@ -5,7 +5,8 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class DeleteOnerelayArgs {
-  @Field(() => relayWhereUniqueInput, { nullable: false })
-  @Type(() => relayWhereUniqueInput)
-  where!: relayWhereUniqueInput;
+
+    @Field(() => relayWhereUniqueInput, {nullable:false})
+    @Type(() => relayWhereUniqueInput)
+    where!: relayWhereUniqueInput;
 }

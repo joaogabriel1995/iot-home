@@ -4,15 +4,16 @@ import { SortOrder } from '../prisma/sort-order.enum';
 
 @InputType()
 export class dhtCountOrderByAggregateInput {
-  @Field(() => SortOrder, { nullable: true })
-  ukey?: keyof typeof SortOrder;
 
-  @Field(() => SortOrder, { nullable: true })
-  temperature?: keyof typeof SortOrder;
+    @Field(() => SortOrder, {nullable:true})
+    ukey?: keyof typeof SortOrder;
 
-  @Field(() => SortOrder, { nullable: true })
-  humidity?: keyof typeof SortOrder;
+    @Field(() => SortOrder, {nullable:true})
+    temperature?: keyof typeof SortOrder;
 
-  @Field(() => SortOrder, { nullable: true })
-  created_at?: keyof typeof SortOrder;
+    @Field(() => SortOrder, {nullable:true})
+    humidity?: keyof typeof SortOrder;
+
+    @Field(() => SortOrder, {nullable:true})
+    created_at?: keyof typeof SortOrder;
 }

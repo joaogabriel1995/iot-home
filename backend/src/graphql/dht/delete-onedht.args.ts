@@ -5,7 +5,8 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class DeleteOnedhtArgs {
-  @Field(() => dhtWhereUniqueInput, { nullable: false })
-  @Type(() => dhtWhereUniqueInput)
-  where!: dhtWhereUniqueInput;
+
+    @Field(() => dhtWhereUniqueInput, {nullable:false})
+    @Type(() => dhtWhereUniqueInput)
+    where!: dhtWhereUniqueInput;
 }

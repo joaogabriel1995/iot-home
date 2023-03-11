@@ -9,27 +9,28 @@ import { relaySumOrderByAggregateInput } from './relay-sum-order-by-aggregate.in
 
 @InputType()
 export class relayOrderByWithAggregationInput {
-  @Field(() => SortOrder, { nullable: true })
-  ukey?: keyof typeof SortOrder;
 
-  @Field(() => SortOrder, { nullable: true })
-  status_relay?: keyof typeof SortOrder;
+    @Field(() => SortOrder, {nullable:true})
+    ukey?: keyof typeof SortOrder;
 
-  @Field(() => SortOrder, { nullable: true })
-  created_at?: keyof typeof SortOrder;
+    @Field(() => SortOrder, {nullable:true})
+    status_relay?: keyof typeof SortOrder;
 
-  @Field(() => relayCountOrderByAggregateInput, { nullable: true })
-  _count?: relayCountOrderByAggregateInput;
+    @Field(() => SortOrder, {nullable:true})
+    created_at?: keyof typeof SortOrder;
 
-  @Field(() => relayAvgOrderByAggregateInput, { nullable: true })
-  _avg?: relayAvgOrderByAggregateInput;
+    @Field(() => relayCountOrderByAggregateInput, {nullable:true})
+    _count?: relayCountOrderByAggregateInput;
 
-  @Field(() => relayMaxOrderByAggregateInput, { nullable: true })
-  _max?: relayMaxOrderByAggregateInput;
+    @Field(() => relayAvgOrderByAggregateInput, {nullable:true})
+    _avg?: relayAvgOrderByAggregateInput;
 
-  @Field(() => relayMinOrderByAggregateInput, { nullable: true })
-  _min?: relayMinOrderByAggregateInput;
+    @Field(() => relayMaxOrderByAggregateInput, {nullable:true})
+    _max?: relayMaxOrderByAggregateInput;
 
-  @Field(() => relaySumOrderByAggregateInput, { nullable: true })
-  _sum?: relaySumOrderByAggregateInput;
+    @Field(() => relayMinOrderByAggregateInput, {nullable:true})
+    _min?: relayMinOrderByAggregateInput;
+
+    @Field(() => relaySumOrderByAggregateInput, {nullable:true})
+    _sum?: relaySumOrderByAggregateInput;
 }

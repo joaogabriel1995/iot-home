@@ -7,15 +7,16 @@ import { dhtUpdateInput } from './dht-update.input';
 
 @ArgsType()
 export class UpsertOnedhtArgs {
-  @Field(() => dhtWhereUniqueInput, { nullable: false })
-  @Type(() => dhtWhereUniqueInput)
-  where!: dhtWhereUniqueInput;
 
-  @Field(() => dhtCreateInput, { nullable: false })
-  @Type(() => dhtCreateInput)
-  create!: dhtCreateInput;
+    @Field(() => dhtWhereUniqueInput, {nullable:false})
+    @Type(() => dhtWhereUniqueInput)
+    where!: dhtWhereUniqueInput;
 
-  @Field(() => dhtUpdateInput, { nullable: false })
-  @Type(() => dhtUpdateInput)
-  update!: dhtUpdateInput;
+    @Field(() => dhtCreateInput, {nullable:false})
+    @Type(() => dhtCreateInput)
+    create!: dhtCreateInput;
+
+    @Field(() => dhtUpdateInput, {nullable:false})
+    @Type(() => dhtUpdateInput)
+    update!: dhtUpdateInput;
 }

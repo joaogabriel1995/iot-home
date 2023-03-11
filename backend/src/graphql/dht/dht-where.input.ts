@@ -6,24 +6,25 @@ import { DateTimeNullableFilter } from '../prisma/date-time-nullable-filter.inpu
 
 @InputType()
 export class dhtWhereInput {
-  @Field(() => [dhtWhereInput], { nullable: true })
-  AND?: Array<dhtWhereInput>;
 
-  @Field(() => [dhtWhereInput], { nullable: true })
-  OR?: Array<dhtWhereInput>;
+    @Field(() => [dhtWhereInput], {nullable:true})
+    AND?: Array<dhtWhereInput>;
 
-  @Field(() => [dhtWhereInput], { nullable: true })
-  NOT?: Array<dhtWhereInput>;
+    @Field(() => [dhtWhereInput], {nullable:true})
+    OR?: Array<dhtWhereInput>;
 
-  @Field(() => IntFilter, { nullable: true })
-  ukey?: IntFilter;
+    @Field(() => [dhtWhereInput], {nullable:true})
+    NOT?: Array<dhtWhereInput>;
 
-  @Field(() => FloatFilter, { nullable: true })
-  temperature?: FloatFilter;
+    @Field(() => IntFilter, {nullable:true})
+    ukey?: IntFilter;
 
-  @Field(() => FloatFilter, { nullable: true })
-  humidity?: FloatFilter;
+    @Field(() => FloatFilter, {nullable:true})
+    temperature?: FloatFilter;
 
-  @Field(() => DateTimeNullableFilter, { nullable: true })
-  created_at?: DateTimeNullableFilter;
+    @Field(() => FloatFilter, {nullable:true})
+    humidity?: FloatFilter;
+
+    @Field(() => DateTimeNullableFilter, {nullable:true})
+    created_at?: DateTimeNullableFilter;
 }

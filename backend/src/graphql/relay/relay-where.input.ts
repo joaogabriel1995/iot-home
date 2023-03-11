@@ -5,21 +5,22 @@ import { DateTimeNullableFilter } from '../prisma/date-time-nullable-filter.inpu
 
 @InputType()
 export class relayWhereInput {
-  @Field(() => [relayWhereInput], { nullable: true })
-  AND?: Array<relayWhereInput>;
 
-  @Field(() => [relayWhereInput], { nullable: true })
-  OR?: Array<relayWhereInput>;
+    @Field(() => [relayWhereInput], {nullable:true})
+    AND?: Array<relayWhereInput>;
 
-  @Field(() => [relayWhereInput], { nullable: true })
-  NOT?: Array<relayWhereInput>;
+    @Field(() => [relayWhereInput], {nullable:true})
+    OR?: Array<relayWhereInput>;
 
-  @Field(() => IntFilter, { nullable: true })
-  ukey?: IntFilter;
+    @Field(() => [relayWhereInput], {nullable:true})
+    NOT?: Array<relayWhereInput>;
 
-  @Field(() => IntFilter, { nullable: true })
-  status_relay?: IntFilter;
+    @Field(() => IntFilter, {nullable:true})
+    ukey?: IntFilter;
 
-  @Field(() => DateTimeNullableFilter, { nullable: true })
-  created_at?: DateTimeNullableFilter;
+    @Field(() => IntFilter, {nullable:true})
+    status_relay?: IntFilter;
+
+    @Field(() => DateTimeNullableFilter, {nullable:true})
+    created_at?: DateTimeNullableFilter;
 }

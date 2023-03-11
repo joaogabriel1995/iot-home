@@ -6,11 +6,12 @@ import { relayWhereInput } from './relay-where.input';
 
 @ArgsType()
 export class UpdateManyrelayArgs {
-  @Field(() => relayUpdateManyMutationInput, { nullable: false })
-  @Type(() => relayUpdateManyMutationInput)
-  data!: relayUpdateManyMutationInput;
 
-  @Field(() => relayWhereInput, { nullable: true })
-  @Type(() => relayWhereInput)
-  where?: relayWhereInput;
+    @Field(() => relayUpdateManyMutationInput, {nullable:false})
+    @Type(() => relayUpdateManyMutationInput)
+    data!: relayUpdateManyMutationInput;
+
+    @Field(() => relayWhereInput, {nullable:true})
+    @Type(() => relayWhereInput)
+    where?: relayWhereInput;
 }

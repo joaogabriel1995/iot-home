@@ -5,7 +5,8 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class CreateOnedhtArgs {
-  @Field(() => dhtCreateInput, { nullable: false })
-  @Type(() => dhtCreateInput)
-  data!: dhtCreateInput;
+
+    @Field(() => dhtCreateInput, {nullable:false})
+    @Type(() => dhtCreateInput)
+    data!: dhtCreateInput;
 }

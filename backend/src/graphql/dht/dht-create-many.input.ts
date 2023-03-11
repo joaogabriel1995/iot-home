@@ -5,15 +5,16 @@ import { Float } from '@nestjs/graphql';
 
 @InputType()
 export class dhtCreateManyInput {
-  @Field(() => Int, { nullable: true })
-  ukey?: number;
 
-  @Field(() => Float, { nullable: false })
-  temperature!: number;
+    @Field(() => Int, {nullable:true})
+    ukey?: number;
 
-  @Field(() => Float, { nullable: false })
-  humidity!: number;
+    @Field(() => Float, {nullable:false})
+    temperature!: number;
 
-  @Field(() => Date, { nullable: true })
-  created_at?: Date | string;
+    @Field(() => Float, {nullable:false})
+    humidity!: number;
+
+    @Field(() => Date, {nullable:true})
+    created_at?: Date | string;
 }

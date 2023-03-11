@@ -8,18 +8,19 @@ import { DhtMaxAggregate } from './dht-max-aggregate.output';
 
 @ObjectType()
 export class AggregateDht {
-  @Field(() => DhtCountAggregate, { nullable: true })
-  _count?: DhtCountAggregate;
 
-  @Field(() => DhtAvgAggregate, { nullable: true })
-  _avg?: DhtAvgAggregate;
+    @Field(() => DhtCountAggregate, {nullable:true})
+    _count?: DhtCountAggregate;
 
-  @Field(() => DhtSumAggregate, { nullable: true })
-  _sum?: DhtSumAggregate;
+    @Field(() => DhtAvgAggregate, {nullable:true})
+    _avg?: DhtAvgAggregate;
 
-  @Field(() => DhtMinAggregate, { nullable: true })
-  _min?: DhtMinAggregate;
+    @Field(() => DhtSumAggregate, {nullable:true})
+    _sum?: DhtSumAggregate;
 
-  @Field(() => DhtMaxAggregate, { nullable: true })
-  _max?: DhtMaxAggregate;
+    @Field(() => DhtMinAggregate, {nullable:true})
+    _min?: DhtMinAggregate;
+
+    @Field(() => DhtMaxAggregate, {nullable:true})
+    _max?: DhtMaxAggregate;
 }

@@ -5,7 +5,8 @@ import { Type } from 'class-transformer';
 
 @ArgsType()
 export class CreateOnerelayArgs {
-  @Field(() => relayCreateInput, { nullable: false })
-  @Type(() => relayCreateInput)
-  data!: relayCreateInput;
+
+    @Field(() => relayCreateInput, {nullable:false})
+    @Type(() => relayCreateInput)
+    data!: relayCreateInput;
 }

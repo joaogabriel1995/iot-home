@@ -5,15 +5,16 @@ import { Float } from '@nestjs/graphql';
 
 @ObjectType()
 export class DhtMinAggregate {
-  @Field(() => Int, { nullable: true })
-  ukey?: number;
 
-  @Field(() => Float, { nullable: true })
-  temperature?: number;
+    @Field(() => Int, {nullable:true})
+    ukey?: number;
 
-  @Field(() => Float, { nullable: true })
-  humidity?: number;
+    @Field(() => Float, {nullable:true})
+    temperature?: number;
 
-  @Field(() => Date, { nullable: true })
-  created_at?: Date | string;
+    @Field(() => Float, {nullable:true})
+    humidity?: number;
+
+    @Field(() => Date, {nullable:true})
+    created_at?: Date | string;
 }

@@ -9,22 +9,23 @@ import { RelayScalarFieldEnum } from '../prisma/relay-scalar-field.enum';
 
 @ArgsType()
 export class FindFirstrelayOrThrowArgs {
-  @Field(() => relayWhereInput, { nullable: true })
-  @Type(() => relayWhereInput)
-  where?: relayWhereInput;
 
-  @Field(() => [relayOrderByWithRelationInput], { nullable: true })
-  orderBy?: Array<relayOrderByWithRelationInput>;
+    @Field(() => relayWhereInput, {nullable:true})
+    @Type(() => relayWhereInput)
+    where?: relayWhereInput;
 
-  @Field(() => relayWhereUniqueInput, { nullable: true })
-  cursor?: relayWhereUniqueInput;
+    @Field(() => [relayOrderByWithRelationInput], {nullable:true})
+    orderBy?: Array<relayOrderByWithRelationInput>;
 
-  @Field(() => Int, { nullable: true })
-  take?: number;
+    @Field(() => relayWhereUniqueInput, {nullable:true})
+    cursor?: relayWhereUniqueInput;
 
-  @Field(() => Int, { nullable: true })
-  skip?: number;
+    @Field(() => Int, {nullable:true})
+    take?: number;
 
-  @Field(() => [RelayScalarFieldEnum], { nullable: true })
-  distinct?: Array<keyof typeof RelayScalarFieldEnum>;
+    @Field(() => Int, {nullable:true})
+    skip?: number;
+
+    @Field(() => [RelayScalarFieldEnum], {nullable:true})
+    distinct?: Array<keyof typeof RelayScalarFieldEnum>;
 }

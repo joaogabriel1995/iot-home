@@ -9,27 +9,28 @@ import { RelayMaxAggregate } from './relay-max-aggregate.output';
 
 @ObjectType()
 export class RelayGroupBy {
-  @Field(() => Int, { nullable: false })
-  ukey!: number;
 
-  @Field(() => Int, { nullable: false })
-  status_relay!: number;
+    @Field(() => Int, {nullable:false})
+    ukey!: number;
 
-  @Field(() => Date, { nullable: true })
-  created_at?: Date | string;
+    @Field(() => Int, {nullable:false})
+    status_relay!: number;
 
-  @Field(() => RelayCountAggregate, { nullable: true })
-  _count?: RelayCountAggregate;
+    @Field(() => Date, {nullable:true})
+    created_at?: Date | string;
 
-  @Field(() => RelayAvgAggregate, { nullable: true })
-  _avg?: RelayAvgAggregate;
+    @Field(() => RelayCountAggregate, {nullable:true})
+    _count?: RelayCountAggregate;
 
-  @Field(() => RelaySumAggregate, { nullable: true })
-  _sum?: RelaySumAggregate;
+    @Field(() => RelayAvgAggregate, {nullable:true})
+    _avg?: RelayAvgAggregate;
 
-  @Field(() => RelayMinAggregate, { nullable: true })
-  _min?: RelayMinAggregate;
+    @Field(() => RelaySumAggregate, {nullable:true})
+    _sum?: RelaySumAggregate;
 
-  @Field(() => RelayMaxAggregate, { nullable: true })
-  _max?: RelayMaxAggregate;
+    @Field(() => RelayMinAggregate, {nullable:true})
+    _min?: RelayMinAggregate;
+
+    @Field(() => RelayMaxAggregate, {nullable:true})
+    _max?: RelayMaxAggregate;
 }

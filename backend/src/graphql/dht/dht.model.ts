@@ -5,15 +5,16 @@ import { Float } from '@nestjs/graphql';
 
 @ObjectType()
 export class dht {
-  @Field(() => ID, { nullable: false })
-  ukey!: number;
 
-  @Field(() => Float, { nullable: false })
-  temperature!: number;
+    @Field(() => ID, {nullable:false})
+    ukey!: number;
 
-  @Field(() => Float, { nullable: false })
-  humidity!: number;
+    @Field(() => Float, {nullable:false})
+    temperature!: number;
 
-  @Field(() => Date, { nullable: true })
-  created_at!: Date | null;
+    @Field(() => Float, {nullable:false})
+    humidity!: number;
+
+    @Field(() => Date, {nullable:true})
+    created_at!: Date | null;
 }
