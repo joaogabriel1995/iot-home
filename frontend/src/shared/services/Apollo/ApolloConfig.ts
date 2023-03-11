@@ -11,12 +11,12 @@ import { createClient } from 'graphql-ws'
 const urlClient: string = `${process.env.REACT_APP_URL}`
 
 const httpLink = createHttpLink({
-  uri: `http://backend:4000/graphql`
+  uri: `http://localhost:4000/graphql`
 })
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: `ws://backend:4000/graphql`
+    url: `ws://localhost:4000/graphql`
   })
 )
 
