@@ -1,8 +1,9 @@
-FROM node:16 as base
+FROM node:18 as base
 
 WORKDIR /home/node/app
 COPY --chown=node:node package*.json ./
 COPY --chown=node:node . .
+RUN npm install -g npm@9.6.1
 RUN npm install
 
 FROM base as client_builder
@@ -13,7 +14,6 @@ RUN npm run build
 FROM base as app
 
 RUN npm i -g serve
-RUN apt-get update && apt-get install -y xsel
-RUN sudo apt install xsel
 COPY --chown=node:node --from=client_builder /home/node/app/build ./build
-CMD ["serve", "-s","build", "-l", "3000"]
+
+CMD ["npm", "run" ,"prod"]
