@@ -21,6 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@graphql-tools/schema": "^9.0.17",
     "@influxdata/influxdb-client": "^1.33.2",
     "@nestjs/apollo": "^10.2.0",
     "@nestjs/common": "^9.0.0",
@@ -31,15 +32,16 @@
     "@prisma/client": "^4.11.0",
     "apollo-server-express": "^3.12.0",
     "class-transformer": "^0.5.1",
-    "graphql": "^16.6.0",
     "graphql-mqtt-subscriptions": "^1.2.0",
     "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.12.0",
     "nestjs-prisma": "^0.20.0",
     "prisma": "^4.11.0",
     "prisma-nestjs-graphql": "^17.1.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "ws": "^8.12.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
