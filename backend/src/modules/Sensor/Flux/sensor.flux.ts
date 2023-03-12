@@ -10,6 +10,5 @@ export const fluxgetMeanByTimeWindow = (
   |> filter(fn: (r) => r["sensor_ukey"] == "1")
   |> aggregateWindow(every: ${windowPeriod}, fn: mean, createEmpty: false, timeSrc: "_start")
   |> yield(name: "mean")`;
-  console.log(query);
   return query;
 };
