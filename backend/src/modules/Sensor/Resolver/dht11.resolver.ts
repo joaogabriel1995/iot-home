@@ -35,14 +35,13 @@ export class Dht11SensorResolver {
   }
   @Query((returns) => [influxDht11])
   async getMeanByTimeWindow(@Args() args?: dht11Args) {
-    const a = await this.influxDbService.queryRows(
+    const response = await this.influxDbService.queryRows(
       fluxgetMeanByTimeWindow(
         args.timeRangeStartCalc,
         args.windowPeriod,
         args._field,
       ),
     );
-    console.log(a);
-    return a;
+    return response;
   }
 }
