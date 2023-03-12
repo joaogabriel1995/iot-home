@@ -57,3 +57,6 @@ O sistema também possui um segundo fluxo de informações, que trata dos dados 
 
 ![texto alternativo](documentation/circuito.jpeg)
 Imagem 2: Foto do circuito com ESP32, Relay e DHT11
+
+![texto alternativo](documentation/dashboard.jpeg)
+Imagem 2: Interface Web para visualização de dados.
