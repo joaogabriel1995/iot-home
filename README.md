@@ -54,3 +54,6 @@ Essa abordagem de enviar dados para um servidor InfluxDB em vez de simplesmente 
 Imagem 1: Fluxo referente aos dados do sensor DHT11
 
 O sistema também possui um segundo fluxo de informações, que trata dos dados enviados para o ESP32 a partir da aplicação web. Nesse fluxo, utilizamos o Telegraf para escutar o tópico "ACTUADOR/INFLUX/#", permitindo que possamos armazenar no banco de dados InfluxDB informações sobre o momento em que o Relay foi ligado através da aplicação web. Esse fluxo é semelhante ao primeiro, porém inclui a capacidade de monitorar e armazenar informações sobre o controle remoto do Relay através da interface da aplicação web.
+
+![texto alternativo](documentation/circuito.jpeg)
+Imagem 2: Foto do circuito com ESP32, Relay e DHT11
