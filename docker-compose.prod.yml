@@ -115,7 +115,6 @@ services:
       APP_PORT: 3000
     ports:
       - 80:80
-      - 443:443
     networks:
       - intnet
     restart: unless-stopped
