@@ -11,7 +11,11 @@ import {
 } from '@mui/material'
 import Grid from '@mui/material/Grid'
 import { useEffect, useRef, useState } from 'react'
-import { Dht11getData, dht11Gql } from '../../graphql/dht11.gql'
+import {
+  Dht11getData,
+  Dht11getMeanBytime,
+  dht11Gql
+} from '../../graphql/dht11.gql'
 import { relayGql } from '../../graphql/relay.gql'
 import { CardInfo, Donuts } from '../../shared/components/index'
 import {
@@ -36,33 +40,44 @@ export const Dashboard = () => {
 
   const [statusRelay, setStatusRelay] = useState<number>()
 
+  //query temp
+  const queryResultTemp = useQuery<Dht11getMeanBytime>(
+    dht11Gql.getMeanByTimeWindow,
+    {
+      pollInterval: 5000,
+      variables: {
+        timeRangeStartCalc: '1h',
+        field: 'Temperature',
+        windowPeriod: '10m'
+      }
+    }
+  )
+
+  //query Relay
   const {
     data: lastStatusRelay,
     loading,
     error
   } = useQuery(relayGql.getRelayLastData)
 
-  if (loading) {
-    console.log('carregando')
-  }
+  // Subscription dht11 temperatura e umidade
+  const { data: dht11, loading: dataMachineLoading } =
+    useSubscription<Dht11getData>(dht11Gql.getData)
 
   const [updateStatusRelay] = useMutation(relayGql.switchStatusRelay)
   const theme = useTheme()
+
   useEffect(() => {
     // setStatusRelay(lastStatusRelay._value)
     if (lastStatusRelay) {
       const status = lastStatusRelay.getLastData[0]
         ? lastStatusRelay.getLastData[0]._value
         : 0
-      console.log('STATUS', status)
       refButton.current!.textContent = status === 0 ? 'Ligar' : 'Desligar'
       setStatusRelay(status)
     }
   }, [lastStatusRelay])
 
-  // Subscription
-  const { data: dht11, loading: dataMachineLoading } =
-    useSubscription<Dht11getData>(dht11Gql.getData)
   useEffect(() => {
     const humidadeData = dht11?.getTempAndHumidity?.Humidity
     const temperatureData = dht11?.getTempAndHumidity?.Temperature
@@ -77,7 +92,6 @@ export const Dashboard = () => {
   }, [dht11?.getTempAndHumidity])
 
   const switchStatus = () => {
-    console.log('Antes', statusRelay)
     updateStatusRelay({ variables: { onOff: statusRelay === 0 ? 1 : 0 } }).then(
       result => {
         refButton.current!.textContent =
@@ -85,8 +99,6 @@ export const Dashboard = () => {
         statusRelay === 0 ? setStatusRelay(1) : setStatusRelay(0)
       }
     )
-
-    console.log('Depois', statusRelay)
   }
 
   return (
@@ -157,7 +169,7 @@ export const Dashboard = () => {
           </Grid>
           <Grid item xs={12}>
             <CardInfo title={'Gráfico de Temperatura'}>
-              <LineChart></LineChart>
+              <LineChart queryResult={queryResultTemp}></LineChart>
             </CardInfo>
           </Grid>
         </Grid>

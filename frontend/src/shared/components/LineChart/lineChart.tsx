@@ -2,43 +2,33 @@ import { useState, useEffect, useRef } from 'react'
 import Chart from 'chart.js/auto'
 import { Box, Paper, useTheme } from '@mui/material'
 import { bgcolor } from '@mui/system'
-import { useQuery } from '@apollo/client'
+import { QueryResult, useQuery } from '@apollo/client'
 import { dht11Gql, Dht11getMeanBytime } from '../../../graphql/dht11.gql'
 import { LineChartService } from '../../services/lineChartServices'
 
-export const LineChart = () => {
+interface LineChartProps {
+  queryResult?: QueryResult
+}
+
+export const LineChart = ({ queryResult }: LineChartProps) => {
   const chartRef = useRef(null)
   const [chart, setChart] = useState(null)
   const theme = useTheme()
   const lineChartService = new LineChartService()
-
-  const {
-    data: MeanByTime,
-    loading,
-    error
-  } = useQuery<Dht11getMeanBytime>(dht11Gql.getMeanByTimeWindow, {
-    variables: {
-      timeRangeStartCalc: '1h',
-      field: 'Temperature',
-      windowPeriod: '10m'
-    }
-  })
-  if (loading) {
-    console.log('Carregando')
-  }
+  const { data, loading, error } = queryResult
 
   useEffect(() => {
-    if (MeanByTime !== undefined) {
+    if (data !== undefined) {
       const array = []
       const array_data = []
-      MeanByTime.getMeanByTimeWindow.map(resp => {
+      data.getMeanByTimeWindow.map(resp => {
         array.push(lineChartService.formatDatetime(String(resp._time)))
         array_data.push(resp._value)
       })
 
       updateData(array_data, array)
     }
-  }, [MeanByTime])
+  }, [data])
 
   useEffect(() => {
     if (chartRef && chartRef.current) {
@@ -72,11 +62,11 @@ export const LineChart = () => {
           }
         },
         data: {
-          labels: [1, 2, 3, 4, 5, 6],
+          labels: [],
           datasets: [
             {
-              label: 'Vendas',
-              data: [1, 2, 3, 4, 5, 6],
+              label: 'Temperatura',
+              data: [],
               borderColor: String(theme.palette.primary.main),
               backgroundColor: '#fff',
               tension: 0.1

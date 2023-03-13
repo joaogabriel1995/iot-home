@@ -43,7 +43,6 @@ export class InfluxDbService {
           next(row, tableMeta) {
             const result = tableMeta.toObject(row);
             data.push(result);
-            console.log(result);
             return result;
           },
           error: reject,
